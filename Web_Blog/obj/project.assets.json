@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FileNayChuBaiTap\\Web_Blog\\Web_Blog.csproj",
+      "projectUniqueName": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\Web_Blog.csproj",
       "projectName": "Web_Blog",
-      "projectPath": "C:\\FileNayChuBaiTap\\Web_Blog\\Web_Blog.csproj",
+      "projectPath": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\Web_Blog.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\FileNayChuBaiTap\\Web_Blog\\obj\\",
+      "outputPath": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Users\\Admin\\OneDrive\\Máy tính\\Components\\Offline Packages"
