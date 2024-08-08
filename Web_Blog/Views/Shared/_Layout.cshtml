@@ -3,47 +3,122 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Web_Blog</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Web_Blog.styles.css" asp-append-version="true" />
+    <title>@ViewData["Title"] - Home</title>
+    <link rel="stylesheet" href="~/css/output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/3.4.8/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/menu.css" />
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Web_Blog</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+<body class="bg-gray-100 font-sans leading-relaxed">
+    <header class="header">
+        <div class="container mx-auto flex items-center justify-between">
+            <!-- Text with Icon -->
+            <a href="/" class="header-content flex items-center">
+                <span class="text-2xl font-bold text-white flex items-center italic">
+                    Thế Giới Xe
+                    <i class="fas fa-car" style="color: blueviolet; margin-left: 0.25rem;"></i> <!-- Car icon with custom margin -->
+                </span>
+            </a>
+
+            <!-- Search Bar -->
+            <form class="search-form flex items-center">
+                <input type="search" placeholder="Tìm kiếm theo tên xe, hãng xe" class="search-input form-input py-2 px-4 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"/>
+                <button type="submit" class="search-button bg-blue-500 text-white flex items-center justify-center">
+                    <i class="fas fa-search"></i> <!-- Search icon -->
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+            </form>
+
+            <!-- Login/Register and Social Icons -->
+            <div class="login-register-social flex items-center space-x-4">
+                <a href="/login" class="text-white hover:text-gray-300">Đăng Nhập</a>
+                <a href="/register" class="text-white hover:text-gray-300">Đăng Ký</a>
+                <a href="https://facebook.com" class="text-gray-200 hover:text-blue-500 mx-2"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://twitter.com" class="text-gray-200 hover:text-blue-400 mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="https://instagram.com" class="text-gray-200 hover:text-pink-500 mx-2"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://linkedin.com" class="text-gray-200 hover:text-blue-600 mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
             </div>
-        </nav>
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger flex flex-col justify-center items-center cursor-pointer md:hidden" onclick="toggleMenu()">
+                <div class="bar bg-white mb-1"></div>
+                <div class="bar bg-white mb-1"></div>
+                <div class="bar bg-white"></div>
+            </div>
+        </div>
     </header>
-    <div class="container">
+
+    <!-- Sticky Menu -->
+    <nav class="sticky-menu bg-gray-700 text-white py-2 shadow-md">
+        <div class="container mx-auto">
+            <ul class="menu-items flex space-x-4 md:space-x-6">
+                <li><a href="/" class="hover:bg-gray-600 px-4 py-2 rounded transition-colors duration-300">Home</a></li>
+                <li><a href="/news" class="hover:bg-gray-600 px-4 py-2 rounded transition-colors duration-300">Tin Tức</a></li>
+                <li><a href="/motorbikes" class="hover:bg-gray-600 px-4 py-2 rounded transition-colors duration-300">Xe máy</a></li>
+                <li><a href="/cars" class="hover:bg-gray-600 px-4 py-2 rounded transition-colors duration-300">Ô Tô</a></li>
+                <li><a href="/market" class="hover:bg-gray-600 px-4 py-2 rounded transition-colors duration-300">Thị Trường</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content container mx-auto my-4 pt-24">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - Web_Blog - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-8 mt-4">
+        <div class="container mx-auto">
+            <!-- Address and Contact Information -->
+            <div class="mb-4">
+                <p class="text-lg font-semibold">Contact Information</p>
+                <p>123 Main Street, Hometown, USA</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: <a href="mailto:contact@example.com" class="underline hover:text-gray-300">contact@example.com</a></p>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="mb-4">
+                <a href="https://facebook.com" class="text-gray-200 hover:text-blue-500 mx-2"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://twitter.com" class="text-gray-200 hover:text-blue-400 mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="https://instagram.com" class="text-gray-200 hover:text-pink-500 mx-2"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://linkedin.com" class="text-gray-200 hover:text-blue-600 mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+
+            <!-- Contact for Work -->
+            <div class="mb-4">
+                <p class="text-lg font-semibold">Contact for Work</p>
+                <p>For business inquiries, please email us at <a href="mailto:business@example.com" class="underline hover:text-gray-300">business@example.com</a></p>
+            </div>
+
+            <!-- Google Map Embed -->
+            <div class="mb-4">
+                <p class="text-lg font-semibold">Our Location</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126596.55187516938!2d-122.33667210000001!3d47.6182235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906b3f3e8dfb27%3A0xfeb59d86c09bca4b!2sSeattle%2C%20WA!5e0!3m2!1sen!2sus!4v1648655297987!5m2!1sen!2sus"
+                    width="100%"
+                    height="200"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"></iframe>
+            </div>
+
+            <!-- Footer Copyright -->
+            <div>
+                &copy; 2024 - Thế Giới Xe - <a href="/privacy" class="underline hover:text-gray-300">Privacy</a>
+            </div>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.menu-items');
+            menu.classList.toggle('show');
+        }
+    </script>
 </body>
 </html>

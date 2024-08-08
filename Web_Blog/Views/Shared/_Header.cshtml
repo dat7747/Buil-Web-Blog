@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Web_Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/3.4.8/tailwind.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body class="bg-gray-100 font-sans leading-relaxed">
+    <header class="bg-gray-800 text-white py-4 shadow-md">
+        <div class="container mx-auto flex items-center justify-between">
+            <!-- Logo -->
+            <a href="/" class="flex items-center space-x-4">
+                <img src="~/image/logo.png" alt="Logo" class="h-16 w-auto"/>
+                <span class="text-2xl font-bold">Thế Giới Xe</span>
+            </a>
+
+            <!-- Navigation -->
+            <nav class="hidden lg:flex flex-grow items-center space-x-4">
+                <form class="flex items-center flex-grow">
+                    <input type="search" placeholder="Search" class="form-input w-full py-2 px-4 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500"/>
+                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-r-md hover:bg-blue-600">Search</button>
+                </form>
+                <ul class="flex space-x-4">
+                    <li><a href="/" class="text-gray-200 hover:text-white">Home</a></li>
+                    <li><a href="/privacy" class="text-gray-200 hover:text-white">Privacy</a></li>
+                </ul>
+                <ul class="flex space-x-4">
+                    <li><a href="https://facebook.com" class="text-gray-200 hover:text-white"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com" class="text-gray-200 hover:text-white"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://instagram.com" class="text-gray-200 hover:text-white"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="/account/login" class="text-gray-200 hover:text-white">Login</a></li>
+                    <li><a href="/account/register" class="text-gray-200 hover:text-white">Register</a></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button class="lg:hidden px-4 py-2 bg-blue-500 text-white rounded">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Your page content here -->
+    <main class="container mx-auto p-4">
+        @RenderBody()
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center py-4 mt-8">
+        <div class="container mx-auto">
+            &copy; 2024 - Web_Blog - <a href="/privacy" class="underline hover:text-gray-300">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>
