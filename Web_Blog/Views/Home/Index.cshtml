@@ -2,56 +2,128 @@
     ViewData["Title"] = "Home Page";
     Layout = "_Layout";
 }
+<!-- Liên kết tới tệp CSS cho slider và nội dung -->
+<link rel="stylesheet" href="~/css/home/slider.css">
+<link rel="stylesheet" href="~/css/home/content-oto.css">
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>    <h1 class="display-4">Welcome</h1>
-        <h1 class="display-4">Welcome</h1>
-            <h1 class="display-4">Welcome</h1>
-                <h1 class="display-4">Welcome</h1>
-                    <h1 class="display-4">Welcome</h1>
-                        <h1 class="display-4">Welcome</h1>
-                            <h1 class="display-4">Welcome</h1>
-                                <h1 class="display-4">Welcome</h1>
-                                    <h1 class="display-4">Welcome</h1>
-
-
-                                        <h1 class="display-4">Welcome</h1>
-                                            <h1 class="display-4">Welcome</h1>
-                                                <h1 class="display-4">Welcome</h1>
-
-                                                    <h1 class="display-4">Welcome</h1>
-                                                        <h1 class="display-4">Welcome</h1>
-                                                            <h1 class="display-4">Welcome</h1>
-                                                                <h1 class="display-4">Welcome</h1>
-
-                                                                    <h1 class="display-4">Welcome</h1>
-                                                                        <h1 class="display-4">Welcome</h1>
-
-                                                                            <h1 class="display-4">Welcome</h1>
-
-                                                                                <h1 class="display-4">Welcome</h1>
-                                                                                    <h1 class="display-4">Welcome</h1>
-                                                                                        <h1 class="display-4">Welcome</h1>
-
-
-                                                                                            <h1 class="display-4">Welcome</h1>    <h1 class="display-4">Welcome</h1>
-                                                                                                <h1 class="display-4">Welcome</h1>    <h1 class="display-4">Welcome</h1>
-                                                                                                    <h1 class="display-4">Welcome</h1>
-
-                                                                                                        <h1 class="display-4">Welcome</h1>
-                                                                                                            <h1 class="display-4">Welcome</h1>
-                                                                                                                <h1 class="display-4">Welcome</h1>
-                                                                                                                    <h1 class="display-4">Welcome</h1>
-
-                                                                                                                        <h1 class="display-4">Welcome</h1>
-                                                                                                                            <h1 class="display-4">Welcome</h1>
-                                                                                                                                <h1 class="display-4">Welcome</h1>
-                                                                                                                                    <h1 class="display-4">Welcome</h1>
-                                                                                                                                        <h1 class="display-4">Welcome</h1>
-                                                                                                                                            <h1 class="display-4">Welcome</h1>
-
-                                                                                                                                                <h1 class="display-4">Welcome</h1>
-                                                                                                                                                    <h1 class="display-4">Welcome</h1>
-                                                                                                                                                        <h1 class="display-4">Welcome</h1>
-                                                                                                                                                            <h1 class="display-4">Welcome</h1>    <h1 class="display-4">Welcome</h1>
+<!-- Phần slider hình ảnh -->
+<div class="slider-container">
+    <div class="slider">
+        <img src="~/image/image1.jpg" alt="Image 1" class="slide">
+        <img src="~/image/image2.jpg" alt="Image 2" class="slide">
+        <img src="~/image/image3.jpg" alt="Image 3" class="slide">
+    </div>
+    <!-- Nút điều hướng -->
+    <button class="prev" onclick="prevSlide()">&#10094;</button>
+    <button class="next" onclick="nextSlide()">&#10095;</button>
 </div>
+
+<!-- Phần OTO -->
+<div class="section-header">
+    <h1>OTO</h1>
+</div>
+
+<!-- Phần New -->
+<div class="section-subheader">
+    <div class="new-badge">
+        <h2>New</h2>
+    </div>
+</div>
+
+<!-- Hình ảnh lớn với chữ đè lên -->
+<div class="main-image-container">
+    <img src="~/image/image1.jpg" alt="Main Image" class="main-image">
+    <div class="image-overlay">
+        <h3 class="overlay-title"><a href="/some-page" class="overlay-link">Tiêu đề</a></h3>
+    </div>
+</div>
+
+<!-- Phần hình ảnh và tiêu đề bài viết -->
+<div class="article-previews">
+    <div class="article">
+        <img src="~/image/image1.jpg" alt="Image 1" class="article-image">
+        <h4 class="article-title">Tiêu đề bài viết 1</h4>
+    </div>
+    <div class="article">
+        <img src="~/image/image2.jpg" alt="Image 2" class="article-image">
+        <h4 class="article-title">Tiêu đề bài viết 2</h4>
+    </div>
+    <div class="article">
+        <img src="~/image/image3.jpg" alt="Image 3" class="article-image">
+        <h4 class="article-title">Tiêu đề bài viết 3</h4>
+    </div>
+</div>
+
+<!-- Phần Nổi bật -->
+<div class="highlight-section">
+    <h2>Nổi bật</h2>
+    <div class="highlight">
+        <img src="~/image/image1.jpg" alt="Highlight Image 1" class="highlight-image">
+        <h4 class="highlight-title">Tiêu đề Nổi bật 1</h4>
+    </div>
+    <div class="highlight">
+        <img src="~/image/image2.jpg" alt="Highlight Image 2" class="highlight-image">
+        <h4 class="highlight-title">Tiêu đề Nổi bật 2</h4>
+    </div>
+</div>
+
+<!-- Nút Xem Thêm sau phần Nổi bật -->
+<div class="view-more-container">
+    <a href="/highlight" class="view-more-button">Xem Thêm >></a>
+</div>
+
+<!-- Phần Xe Máy -->
+<div class="section-header">
+    <h1>Xe Máy</h1>
+</div>
+
+<!-- Phần New -->
+<div class="section-subheader">
+    <div class="new-badge">
+        <h2>New</h2>
+    </div>
+</div>
+
+<!-- Hình ảnh lớn với chữ đè lên -->
+<div class="main-image-container">
+    <img src="~/image/image1.jpg" alt="Main Image" class="main-image">
+    <div class="image-overlay">
+        <h3 class="overlay-title"><a href="/some-page" class="overlay-link">Tiêu đề</a></h3>
+    </div>
+</div>
+
+<!-- Phần hình ảnh và tiêu đề bài viết -->
+<div class="article-previews">
+    <div class="article">
+        <img src="~/image/image1.jpg" alt="Image 1" class="article-image">
+        <h4 class="article-title">Tiêu đề bài viết 1</h4>
+    </div>
+    <div class="article">
+        <img src="~/image/image2.jpg" alt="Image 2" class="article-image">
+        <h4 class="article-title">Tiêu đề bài viết 2</h4>
+    </div>
+    <div class="article">
+        <img src="~/image/image3.jpg" alt="Image 3" class="article-image">
+        <h4 class="article-title">Tiêu đề bài viết 3</h4>
+    </div>
+</div>
+
+<!-- Phần Nổi bật -->
+<div class="highlight-section">
+    <h2>Nổi bật</h2>
+    <div class="highlight">
+        <img src="~/image/image1.jpg" alt="Highlight Image 1" class="highlight-image">
+        <h4 class="highlight-title">Tiêu đề Nổi bật 1</h4>
+    </div>
+    <div class="highlight">
+        <img src="~/image/image2.jpg" alt="Highlight Image 2" class="highlight-image">
+        <h4 class="highlight-title">Tiêu đề Nổi bật 2</h4>
+    </div>
+</div>
+<!-- Nút Xem Thêm sau phần Nổi bật -->
+<div class="view-more-container">
+    <a href="/highlight" class="view-more-button">Xem Thêm >></a>
+</div>
+<hr class="separator">
+<!-- Liên kết tới tệp JavaScript -->
+<script src="~/js/slider.js"></script>

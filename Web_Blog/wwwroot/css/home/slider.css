@@ -1,0 +1,51 @@
+/* Đảm bảo slider tràn màn hình với padding ở hai bên */
+.slider-container {
+    width: 100%;
+    height: auto; /* Cho phép chiều cao tự động điều chỉnh theo nội dung */
+    position: relative;
+    overflow: hidden;
+    padding: 20px 20px 0; /* Thêm padding ở top */
+    box-sizing: border-box;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: auto; /* Điều chỉnh chiều cao của slider */
+    width: 100%;
+}
+
+.slide {
+    width: 100%; /* Đảm bảo ảnh tràn hết chiều rộng của slider */
+    height: 500px; /* Đặt chiều cao cố định cho tất cả các slide */
+    object-fit: cover; /* Đảm bảo ảnh che toàn bộ khu vực đã định, có thể cắt bớt nếu không khớp */
+    flex-shrink: 0;
+    transition: transform 1s ease-in-out;
+}
+
+/* Nút điều hướng */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 1000;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+

@@ -1,0 +1,160 @@
+.section-header {
+    margin: 20px 0;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 3px solid #000; /* Kẻ border nổi bật */
+    color: #333; /* Màu chữ nổi bật */
+}
+
+.section-subheader {
+    margin: 20px 0;
+    text-align: left;
+    padding-left: 10px;
+    position: relative;
+}
+
+.new-badge {
+    position: absolute;
+    top: 10px; /* Điều chỉnh vị trí chữ New lên trên ảnh */
+    left: 10px;
+    background-color: yellow;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 22px;
+    animation: pulse 2s infinite;
+    z-index: 10; /* Đảm bảo chữ New nằm trên ảnh */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.main-image-container {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-weight: bold;
+}
+
+.overlay-title a {
+    color: white;
+    text-decoration: none;
+}
+
+.article-previews {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.article {
+    flex: 1;
+    text-align: center;
+}
+
+.article-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.highlight-section {
+    margin-top: 40px;
+}
+
+.highlight-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.highlight-image {
+    width: 30%;
+    max-height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.highlight-title {
+    font-size: 16px; /* Kích thước chữ nhỏ hơn cho phần Nổi bật */
+}
+
+.view-more-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.view-more-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.view-more-button:hover {
+    background-color: #0056b3;
+}
+
+/* CSS cho separator */
+.separator {
+    border: 0;
+    height: 2px;
+    background: #333;
+    margin: 20px 0;
+}
+.highlight-section {
+    margin-top: 40px;
+}
+
+.highlight {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.highlight-image {
+    width: 30%;
+    max-height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.highlight-title {
+    font-size: 18px;
+}
