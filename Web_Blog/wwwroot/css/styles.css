@@ -1,8 +1,8 @@
 /* CSS cho hiệu ứng dần xuất hiện */
 .content-section {
     opacity: 0;
-    transform: translateY(30px); /* Kéo phần tử xuống dưới khi bắt đầu */
-    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+    transform: translateY(50px); /* Di chuyển phần tử từ dưới lên */
+    transition: opacity 1s ease-out, transform 1s ease-out;
     will-change: opacity, transform; /* Cải thiện hiệu suất chuyển đổi */
 }
 

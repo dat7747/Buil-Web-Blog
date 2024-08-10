@@ -5,13 +5,17 @@ document.addEventListener("DOMContentLoaded", () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const section = entry.target;
-                console.log(`Loading content for section with ID: ${section.id}`);
                 loadContent(section);
-                observer.unobserve(section); // Ngừng quan sát sau khi nội dung được tải
+                section.classList.add('loaded');
+                observer.unobserve(section); // Ngừng quan sát khi nội dung được tải
+                observer.observe(section); // Tiếp tục quan sát để hiệu ứng hiển thị lại
+            } else {
+                // Xóa lớp loaded khi nội dung không còn trong viewport
+                entry.target.classList.remove('loaded');
             }
         });
     }, {
-        threshold: 0.5 // Quan sát khi ít nhất 50% của phần tử xuất hiện trong viewport
+        threshold: 0.9 // Quan sát khi ít nhất 90% của phần tử xuất hiện trong viewport
     });
 
     contentSections.forEach(section => {
@@ -29,8 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
             })
             .then(data => {
                 section.innerHTML = data;
-                section.classList.add('loaded');
-                console.log(`Content loaded for section with ID: ${section.id}`);
             })
             .catch(error => {
                 section.innerHTML = 'Không thể tải nội dung.';
