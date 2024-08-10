@@ -1,6 +1,22 @@
 {
   "Files": [
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\content\\content-highlight.html",
+      "PackagePath": "staticwebassets\\content\\content-highlight.html"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\content\\content-motorbikes.html",
+      "PackagePath": "staticwebassets\\content\\content-motorbikes.html"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\content\\content-new.html",
+      "PackagePath": "staticwebassets\\content\\content-new.html"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\content\\content-oto.html",
+      "PackagePath": "staticwebassets\\content\\content-oto.html"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\home\\content-oto.css",
       "PackagePath": "staticwebassets\\css\\home\\content-oto.css"
     },
@@ -23,6 +39,10 @@
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\favicon.ico",
@@ -55,6 +75,10 @@
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\yamaha.jpg",
       "PackagePath": "staticwebassets\\image\\yamaha.jpg"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\lazy-load.js",
+      "PackagePath": "staticwebassets\\js\\lazy-load.js"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\site.js",

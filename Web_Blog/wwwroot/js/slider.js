@@ -16,3 +16,4 @@ function prevSlide() {
 }
 
 setInterval(nextSlide, slideDuration);
+

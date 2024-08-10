@@ -1,0 +1,20 @@
+/* CSS cho hiệu ứng dần xuất hiện */
+.content-section {
+    opacity: 0;
+    transform: translateY(30px); /* Kéo phần tử xuống dưới khi bắt đầu */
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+    will-change: opacity, transform; /* Cải thiện hiệu suất chuyển đổi */
+}
+
+.content-section.loaded {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Đảm bảo các phần tử khác không bị ảnh hưởng */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Màu nền sáng hơn để dễ nhìn hơn */
+}

@@ -70,7 +70,7 @@
 /* Sticky Menu Links Hover */
 .sticky-menu a:hover {
     color: blue; /* Text color on hover */
-    background-color: #a94a0f; /* Background color on hover */
+    background-color: #9f9792; /* Background color on hover */
     font-size: 1.25rem; /* Increase font size on hover */
 }
 
