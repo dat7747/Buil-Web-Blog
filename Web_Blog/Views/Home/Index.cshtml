@@ -5,7 +5,8 @@
 <!-- Liên kết tới tệp CSS cho slider và nội dung -->
 <link rel="stylesheet" href="~/css/home/slider.css">
 <link rel="stylesheet" href="~/css/home/content-oto.css">
-<link rel="stylesheet" href="~/css/styles.css">
+<link rel="stylesheet" href="~/css/home/featured-slider.css">
+<link rel="stylesheet" href="/css/home/title-lazy-load.css">
 <!-- Phần slider hình ảnh -->
 <div class="slider-container">
     <div class="slider">
@@ -126,17 +127,96 @@
 </div>
 <hr class="separator">
 
-<div class="content-section" id="content-oto" data-url="/content/content-new.html">
-    Đang tải nội dung Ô tô...
+<div class="content-section" id="content-highlight" data-url="/content/thegioixemay.html">
+</div>
+<div class="content-section"  data-url="/content/thegioxehoi.html">
+</div>
+<div class="featured-section">
+    <div class="section-headers fade-in">
+        <h1>Các dòng siêu xe nổi bật tại Việt Nam</h1>
+    </div>
+    <div class="featured-slider">
+        <div class="featured-slide">
+            <a href="/page1">
+                <img src="~/image/image1.jpg" alt="Featured Image 1" class="featured-image">
+                <h4 class="featured-title">1</h4>
+            </a>
+        </div>
+        <div class="featured-slide">
+            <a href="/page2">
+                <img src="~/image/image2.jpg" alt="Featured Image 2" class="featured-image">
+                <h4 class="featured-title">2</h4>
+            </a>
+        </div>
+        <div class="featured-slide">
+            <a href="/page3">
+                <img src="~/image/image3.jpg" alt="Featured Image 3" class="featured-image">
+                <h4 class="featured-title">3</h4>
+            </a>
+        </div>
+       <div class="featured-slide">
+            <a href="/page2">
+                <img src="~/image/image2.jpg" alt="Featured Image 2" class="featured-image">
+                <h4 class="featured-title">4</h4>
+            </a>
+        </div>
+        <div class="featured-slide">
+            <a href="/page3">
+                <img src="~/image/image3.jpg" alt="Featured Image 3" class="featured-image">
+                <h4 class="featured-title">5</h4>
+            </a>
+        </div>
+         <div class="featured-slide">
+            <a href="/page2">
+                <img src="~/image/image2.jpg" alt="Featured Image 2" class="featured-image">
+                <h4 class="featured-title">6</h4>
+            </a>
+        </div>
+        <div class="featured-slide">
+            <a href="/page3">
+                <img src="~/image/image3.jpg" alt="Featured Image 3" class="featured-image">
+                <h4 class="featured-title">7</h4>
+            </a>
+        </div>
+         <div class="featured-slide">
+            <a href="/page2">
+                <img src="~/image/image2.jpg" alt="Featured Image 2" class="featured-image">
+                <h4 class="featured-title">8</h4>
+            </a>
+        </div>
+        <div class="featured-slide">
+            <a href="/page3">
+                <img src="~/image/image3.jpg" alt="Featured Image 3" class="featured-image">
+                <h4 class="featured-title">9</h4>
+            </a>
+        </div>
+         <div class="featured-slide">
+            <a href="/page2">
+                <img src="~/image/image2.jpg" alt="Featured Image 2" class="featured-image">
+                <h4 class="featured-title">10</h4>
+            </a>
+        </div>
+        <div class="featured-slide">
+            <a href="/page3">
+                <img src="~/image/image3.jpg" alt="Featured Image 3" class="featured-image">
+                <h4 class="featured-title">11</h4>
+            </a>
+        </div>
+         <div class="featured-slide">
+            <a href="/page2">
+                <img src="~/image/image2.jpg" alt="Featured Image 2" class="featured-image">
+                <h4 class="featured-title">12</h4>
+            </a>
+        </div>
+        <div class="featured-slide">
+            <a href="/page3">
+                <img src="~/image/image3.jpg" alt="Featured Image 3" class="featured-image">
+                <h4 class="featured-title">13</h4>
+            </a>
+        </div>
+    </div>
 </div>
 
-<div class="content-section" id="content-motorbikes" data-url="/content/content-motorbikes.html">
-    Đang tải nội dung Xe máy...
-</div>
-
-
-
-
-<!-- Liên kết tới tệp JavaScript -->
-<script src="~/js/slider.js"></script>
-<script src="~/js/lazy-load.js"></script>
+<script src="~/js/home/slider.js"></script>
+<script src="~/js/home/lazy-load.js"></script>
+<script src="~/js/home/featured-slider.js"></script>

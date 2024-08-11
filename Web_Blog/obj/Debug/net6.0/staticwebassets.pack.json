@@ -1,24 +1,24 @@
 {
   "Files": [
     {
-      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\content\\content-highlight.html",
-      "PackagePath": "staticwebassets\\content\\content-highlight.html"
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\content\\thegioixemay.html",
+      "PackagePath": "staticwebassets\\content\\thegioixemay.html"
     },
     {
-      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\content\\content-motorbikes.html",
-      "PackagePath": "staticwebassets\\content\\content-motorbikes.html"
-    },
-    {
-      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\content\\content-new.html",
-      "PackagePath": "staticwebassets\\content\\content-new.html"
-    },
-    {
-      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\content\\content-oto.html",
-      "PackagePath": "staticwebassets\\content\\content-oto.html"
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\content\\thegioxehoi.html",
+      "PackagePath": "staticwebassets\\content\\thegioxehoi.html"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\home\\content-oto.css",
       "PackagePath": "staticwebassets\\css\\home\\content-oto.css"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\home\\featured-slider.css",
+      "PackagePath": "staticwebassets\\css\\home\\featured-slider.css"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\home\\lazy-load.css",
+      "PackagePath": "staticwebassets\\css\\home\\lazy-load.css"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\home\\menu.css",
@@ -27,6 +27,10 @@
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\home\\slider.css",
       "PackagePath": "staticwebassets\\css\\home\\slider.css"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\home\\title-lazy-load.css",
+      "PackagePath": "staticwebassets\\css\\home\\title-lazy-load.css"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\input.css",
@@ -39,10 +43,6 @@
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
-      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\favicon.ico",
@@ -77,16 +77,20 @@
       "PackagePath": "staticwebassets\\image\\yamaha.jpg"
     },
     {
-      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\lazy-load.js",
-      "PackagePath": "staticwebassets\\js\\lazy-load.js"
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\home\\featured-slider.js",
+      "PackagePath": "staticwebassets\\js\\home\\featured-slider.js"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\home\\lazy-load.js",
+      "PackagePath": "staticwebassets\\js\\home\\lazy-load.js"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\home\\slider.js",
+      "PackagePath": "staticwebassets\\js\\home\\slider.js"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
-    },
-    {
-      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\slider.js",
-      "PackagePath": "staticwebassets\\js\\slider.js"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\lib\\bootstrap\\LICENSE",

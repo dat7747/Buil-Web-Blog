@@ -1,0 +1,16 @@
+.section-headers {
+    background-color: rgb(105, 120, 105) !important; /* Thay đổi màu nền để dễ nhận thấy */
+    text-align: center; /* Căn giữa chữ */
+    padding: 13px; /* Thêm khoảng cách xung quanh chữ */
+    color: white; /* Đổi màu chữ thành trắng */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Thêm bóng đổ */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
+}
+
+.section-headers:hover {
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+    background-color: rgb(85, 100, 85); /* Thay đổi màu nền khi hover */
+}
+.section-headers h1 {
+    font-size: 32px; /* Tăng cỡ chữ */
+}

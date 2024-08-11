@@ -127,3 +127,41 @@ footer {
     background-color: #2d3748;
     color: #ffffff;
 }
+.dropdown-menu {
+    display: none; /* Ẩn menu con ban đầu */
+    position: absolute;
+    left: 0;
+    max-height: 240px;
+    overflow-y: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.group:hover .dropdown-menu {
+    display: grid; /* Hiển thị menu con khi hover vào mục chính */
+}
+
+.dropdown-menu a {
+    color: white;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #454546;
+    color:yellowgreen;
+}
+
+.dropdown-menu::-webkit-scrollbar {
+    width: 8px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+.dropdown-menu::-webkit-scrollbar-track {
+    background-color: #333;
+}

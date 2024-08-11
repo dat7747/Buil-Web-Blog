@@ -49,3 +49,25 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+
+@keyframes slide-text {
+    0% {
+        transform: translateX(0);
+        color: blue; /* Màu ban đầu */
+    }
+    50% {
+        transform: translateX(100%);
+        color: red; /* Màu khi chạm đến đích */
+    }
+    100% {
+        transform: translateX(0);
+        color: blue; /* Quay lại màu ban đầu */
+    }
+}
+
+.section-header h1 {
+    font-size: 1.3em;
+    white-space: nowrap;
+    display: inline-block;
+    animation: slide-text 5s linear infinite;
+}

@@ -1,0 +1,61 @@
+.featured-section {
+    max-width: 100%;
+    margin: auto;
+}
+
+.featured-slider {
+    display: flex;
+    overflow-x: hidden; /* Ẩn thanh cuộn */
+    gap: 10px;
+    padding: 10px 0;
+    cursor: grab;
+    scroll-behavior: smooth;
+}
+
+.featured-slider.active {
+    cursor: grabbing;
+}
+
+.featured-slide {
+    min-width: 300px;
+    flex-shrink: 0;
+    height: 250px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.featured-slide:hover {
+    transform: scale(1.05);
+}
+
+.featured-image {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.featured-title {
+    padding: 5px;
+    font-size: 1em;
+    text-align: center;
+    background-color: #f0f0f0;
+    height: 40px;
+    overflow: hidden;
+    line-height: 1.2em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.featured-slider::-webkit-scrollbar {
+    display: none; /* Ẩn thanh cuộn */
+}
+
+.featured-slide a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+}
