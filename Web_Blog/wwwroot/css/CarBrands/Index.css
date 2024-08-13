@@ -1,0 +1,26 @@
+/* CSS cho menu car brands */
+.car-brands-container {
+    max-width: 1200px; /* Hoặc kích thước bạn muốn */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu-car {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Điều chỉnh kích thước menu item */
+    gap: 10px; /* Khoảng cách giữa các menu item */
+}
+
+.menu-item-car {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Bo tròn các cạnh */
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item-car:hover {
+    transform: translateY(-5px); /* Đẩy menu item lên khi hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tạo hiệu ứng đổ bóng */
+}

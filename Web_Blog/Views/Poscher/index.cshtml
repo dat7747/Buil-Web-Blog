@@ -1,0 +1,69 @@
+@{
+    ViewData["Title"] = "Car Brands";
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/CarBrands/index.css">
+</head>
+<body>
+    <div class="car-brands-container">
+        <div class="menu-car">
+            @foreach (var brand in Model.Brands)
+            {
+                <div class="menu-item-car">
+                    @brand
+                </div>
+            }
+        </div>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Công suất</th>
+                <th>Mô-men xoắn cực đại</th>
+                <th>Tăng tốc từ 0 - 100 km/giờ</th>
+                <th>Tốc độ tối đa</th>
+                <th>Mức tiêu thụ kết hợp</th>
+                <th>Lượng khí thải CO2</th>
+                <th>Giá tiêu chuẩn</th>
+                <th>Chiều dài</th>
+                <th>Chiều rộng</th>
+                <th>Hình ảnh</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var poscher in Model.Poschers)
+            {
+                <tr>
+                    <td>@poscher.CongSuat</td>
+                    <td>@poscher.MoMenXoanCucDai</td>
+                    <td>@poscher.TangToc</td>
+                    <td>@poscher.TocDoToiDa</td>
+                    <td>@poscher.MucTieuThuKetHop</td>
+                    <td>@poscher.LuongKhiThaiCO2</td>
+                    <td>@poscher.GiaTieuChuan</td>
+                    <td>@poscher.ChieuDai</td>
+                    <td>@poscher.ChieuRong</td>
+                    <td>
+                        @if (poscher.ImageExists)
+                        {
+                            var imagePath = Url.Content($"~/image/Poscher/911/{poscher.Image?.Replace(' ', '_')}");
+                            <img src="@imagePath" alt="@poscher.Ten" width="100"/>
+                        }
+                        else
+                        {
+                            <span>Không có hình ảnh</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

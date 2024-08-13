@@ -26,8 +26,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/FileNayChuBaiTap/Buil-Web-Blog/Web_Blog/Views/CarBrands/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyQnJhbmRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/FileNayChuBaiTap/Buil-Web-Blog/Web_Blog/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FileNayChuBaiTap/Buil-Web-Blog/Web_Blog/Views/MotoBrands/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW90b0JyYW5kc1xpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FileNayChuBaiTap/Buil-Web-Blog/Web_Blog/Views/Poscher/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zY2hlclxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/FileNayChuBaiTap/Buil-Web-Blog/Web_Blog/Views/Shared/_Footer.cshtml]

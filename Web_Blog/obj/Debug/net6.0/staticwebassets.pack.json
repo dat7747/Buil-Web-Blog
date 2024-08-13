@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\content\\thegioxehoi.html"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\CarBrands\\Index.css",
+      "PackagePath": "staticwebassets\\css\\CarBrands\\Index.css"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\home\\content-oto.css",
       "PackagePath": "staticwebassets\\css\\home\\content-oto.css"
     },
@@ -47,6 +51,94 @@
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 carrera 4 cabriolet.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 carrera 4 cabriolet.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 carrera 4 gts cabriolet.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 carrera 4 gts cabriolet.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 carrera 4 gts.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 carrera 4 gts.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 carrera 4.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 carrera 4.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 carrera 4s cabriolet.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 carrera 4s cabriolet.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 carrera 4s.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 carrera 4s.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 carrera cabriolet.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 carrera cabriolet.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 carrera gts cabriolet.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 carrera gts cabriolet.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 carrera gts.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 carrera gts.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 carrera s cabriolet.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 carrera s cabriolet.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 carrera s.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 carrera s.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 carrera t.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 carrera t.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 dakar.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 dakar.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 sport classic.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 sport classic.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 targa 4 gts.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 targa 4 gts.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 targa 4.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 targa 4.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 targa 4s.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 targa 4s.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 turbo cabriolet.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 turbo cabriolet.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 turbo s cabriolet.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 turbo s cabriolet.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 turbo s.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 turbo s.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 turbo.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 turbo.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911_carrera.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911_carrera.png"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\ford.jpg",

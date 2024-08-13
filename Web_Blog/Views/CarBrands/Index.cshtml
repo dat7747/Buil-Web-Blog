@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Car Brands";
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/CarBrands/index.css">
+</head>
+<body>
+    <div class="car-brands-container">
+        <div class="menu-car">
+            @foreach (var brand in Model.Brands)
+            {
+                <div class="menu-item-car">
+                    @brand
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>
