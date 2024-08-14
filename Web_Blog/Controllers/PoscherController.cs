@@ -22,21 +22,14 @@ namespace Web_Blog.Controllers
 
             foreach (var poscher in poschers)
             {
-                // Loại bỏ khoảng trắng đầu và cuối trong tên file ảnh
-                var imageName = poscher.Image?.Trim();
-                
-                // Thay thế khoảng trắng bằng dấu gạch dưới
-                var imageNameWithUnderscores = imageName?.Replace(' ', '_');
+                // Loại bỏ khoảng trắng đầu và cuối trong tên file ảnh và chuyển thành chữ thường
+                var imageName = poscher.Image?.Trim().ToLower(); // Đổi thành chữ thường
                 
                 // Xây dựng đường dẫn tới file ảnh với thư mục con '911'
-                var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "image", "Poscher", "911", imageNameWithUnderscores);
+                var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "image", "poscher", "911", imageName + ".png");
 
                 // Kiểm tra sự tồn tại của file ảnh
                 poscher.ImageExists = !string.IsNullOrEmpty(imageName) && System.IO.File.Exists(imagePath);
-
-                // Ghi log tên ảnh và trạng thái tồn tại của ảnh
-                Console.WriteLine($"Tên ảnh gốc: '{imageName}', Tên ảnh sau khi thay đổi: '{imageNameWithUnderscores}', Tồn tại: {poscher.ImageExists}");
-                Console.WriteLine("Đường dẫn ảnh: " + imagePath);
             }
 
             // Tạo một đối tượng để chứa dữ liệu
@@ -48,6 +41,6 @@ namespace Web_Blog.Controllers
 
             return View(data);
         }
-
     }
+
 }

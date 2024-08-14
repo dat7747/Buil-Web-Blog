@@ -1,0 +1,95 @@
+/* CSS cho slider */
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease; /* Giảm tốc độ chuyển slide */
+}
+
+.slide {
+    min-width: 50%; /* Đặt mỗi slide chiếm 50% chiều rộng của slider */
+    box-sizing: border-box;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển đổi cho ảnh */
+}
+
+.slide img:hover {
+    transform: scale(1.1); /* Phóng to ảnh khi hover */
+}
+
+.slide-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Nền bán trong suốt */
+    color: white;
+    text-align: center; /* Căn giữa */
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 0.3s ease; /* Hiệu ứng chuyển đổi cho thông tin slide */
+    opacity: 0; /* Ẩn thông tin slide mặc định */
+}
+
+.slide:hover .slide-info {
+    opacity: 1; /* Hiện thông tin khi hover vào slide */
+}
+
+.slide-info p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.slide-info p:first-child {
+    font-weight: bold; /* In đậm tên xe */
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* CSS cho phần chi tiết xe */
+.car-details {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.car-details img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.car-logo {
+    width: 100px; /* Thay đổi kích thước hình ảnh theo ý muốn */
+    height: auto; /* Giữ tỷ lệ khung hình của hình ảnh */
+    object-fit: contain; /* Đảm bảo hình ảnh không bị cắt và giữ nguyên tỷ lệ */
+}
+

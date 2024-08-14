@@ -1,0 +1,30 @@
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5; /* Màu nền */
+}
+
+#logo {
+    width: 150px; /* Kích thước nhỏ hơn của hình ảnh */
+    height: auto; /* Giữ tỷ lệ khung hình */
+    object-fit: contain; /* Đảm bảo hình ảnh không bị cắt */
+    margin-bottom: 20px; /* Khoảng cách giữa hình ảnh và tiêu đề */
+}
+
+h3 {
+    font-size: 2rem; /* Kích thước chữ */
+    font-weight: bold; /* In đậm chữ */
+    color: #1d4ed8; /* Màu chữ */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng chữ */
+    padding: 10px 20px; /* Khoảng cách trong tiêu đề */
+    background-color: #ffffff; /* Màu nền của tiêu đề */
+    border: 2px solid #d1d5db; /* Đường viền */
+    border-radius: 8px; /* Bo góc */
+    transition: color 0.3s ease, transform 0.3s ease; /* Hiệu ứng chuyển tiếp */
+}
+
+h3:hover {
+    color: #1e40af; /* Màu chữ khi hover */
+    transform: scale(1.05); /* Tăng kích thước khi hover */
+}

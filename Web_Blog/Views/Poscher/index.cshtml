@@ -1,5 +1,7 @@
+@using System.Globalization
+
 @{
-    ViewData["Title"] = "Car Brands";
+    ViewData["Title"] = "Home Page";
     Layout = "_Layout";
 }
 
@@ -10,60 +12,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/CarBrands/index.css">
+    <link rel="stylesheet" href="~/css/Porscher/index.css">
+    <link rel="stylesheet" href="~/css/Porscher/detail_porscher.css">
+    <link rel="stylesheet" href="~/css/Porscher/logo_porscher.css">
 </head>
 <body>
     <div class="car-brands-container">
         <div class="menu-car">
             @foreach (var brand in Model.Brands)
             {
-                <div class="menu-item-car">
-                    @brand
+                <div class="menu-item-car" data-brand-id="@brand.Id">
+                    @brand.Name
                 </div>
             }
         </div>
     </div>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Công suất</th>
-                <th>Mô-men xoắn cực đại</th>
-                <th>Tăng tốc từ 0 - 100 km/giờ</th>
-                <th>Tốc độ tối đa</th>
-                <th>Mức tiêu thụ kết hợp</th>
-                <th>Lượng khí thải CO2</th>
-                <th>Giá tiêu chuẩn</th>
-                <th>Chiều dài</th>
-                <th>Chiều rộng</th>
-                <th>Hình ảnh</th>
-            </tr>
-        </thead>
-        <tbody>
+    <div class="center-content">
+        <img id="logo" src="~/image/logo_porscher.jpg" alt="Porscher Logo">
+        <h3>PORSCHER</h3>
+    </div>
+
+    <div class="slider-container">
+        <div class="slider" id="slider">
             @foreach (var poscher in Model.Poschers)
             {
-                <tr>
-                    <td>@poscher.CongSuat</td>
-                    <td>@poscher.MoMenXoanCucDai</td>
-                    <td>@poscher.TangToc</td>
-                    <td>@poscher.TocDoToiDa</td>
-                    <td>@poscher.MucTieuThuKetHop</td>
-                    <td>@poscher.LuongKhiThaiCO2</td>
-                    <td>@poscher.GiaTieuChuan</td>
-                    <td>@poscher.ChieuDai</td>
-                    <td>@poscher.ChieuRong</td>
-                    <td>
-                        @if (poscher.ImageExists)
-                        {
-                            var imagePath = Url.Content($"~/image/Poscher/911/{poscher.Image?.Replace(' ', '_')}");
-                            <img src="@imagePath" alt="@poscher.Ten" width="100"/>
-                        }
-                        else
-                        {
-                            <span>Không có hình ảnh</span>
-                        }
-                    </td>
-                </tr>
+                if (poscher.ImageExists)
+                {
+                    var imagePath = Url.Content($"~/image/poscher/911/{poscher.Image}.png");
+                    <div class="slide" onclick="showCarDetails(
+                        '@imagePath', 
+                        '@poscher.Ten', 
+                        '@poscher.GiaTieuChuan.ToString("N0", new CultureInfo("vi-VN")) VNĐ', 
+                        '@poscher.CongSuat', 
+                        '@poscher.MoMenXoanCucDai', 
+                        '@poscher.TangToc', 
+                        '@poscher.TocDoToiDa', 
+                        '@poscher.MucTieuThuKetHop', 
+                        '@poscher.LuongKhiThaiCO2',
+                        '@poscher.ChieuDai',
+                        '@poscher.ChieuRong')">
+                        <img src="@imagePath" alt="@poscher.Ten"/>
+                        <div class="slide-info">
+                            <p>@poscher.Ten</p>
+                            <p>Giá tiêu chuẩn: @poscher.GiaTieuChuan.ToString("N0", new CultureInfo("vi-VN")) VNĐ</p>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="slide">
+                        <p>Image for @poscher.Ten does not exist.</p>
+                    </div>
+                }
             }
-        </tbody>
-    </table>
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+
+    <!-- Thêm phần hiển thị thông tin xe đã chọn -->
+    <div class="car-info-container">
+        <div class="image-container">
+            <!-- Thêm dòng hiển thị tên xe phía trên ảnh -->
+            <div class="car-name">
+                <h2 id="carName">911 Carrera 4 GTS</h2>
+            </div>
+            <img id="carImage" src="~/image/poscher/911/911 carrera 4 gts.png" alt="Porsche 911">
+            <div class="details">
+                <p id="carLength">Chiều dài: 4.533 mm</p>
+                <p id="carHeight">Chiều cao: mm</p>
+            </div>
+        </div>
+
+        <div class="specifications-container">
+            <h1>Thông số kỹ thuật</h1>
+            <table>
+                <tr>
+                    <th>Công suất</th>
+                    <td id="carPower">480 kW</td>
+                </tr>
+                <tr>
+                    <th>Mô men xoắn cực đại</th>
+                    <td id="carTorque">570 năm</td>
+                </tr>
+                <tr>
+                    <th>Tăng tốc từ 0 - 100 km/giờ (0 - 62 dặm/giờ)</th>
+                    <td id="carAcceleration">3.3 giây</td>
+                </tr>
+                <tr>
+                    <th>Tốc độ tối đa</th>
+                    <td id="carTopSpeed">309 km/giờ</td>
+                </tr>
+                <tr>
+                    <th>Mức tiêu thụ kết hợp</th>
+                    <td id="carFuelConsumption"> </td>
+                </tr>
+                <tr>
+                    <th>Lượng khí thải CO2</th>
+                    <td id="carCO2Emissions"> </td>
+                </tr>
+                <tr>
+                    <th>Giá tiêu chuẩn</th>
+                    <td id="carPrice">10.120.000.000 VNĐ</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="italic">
+        <p>* Giá tiêu chuẩn bao gồm thuế nhập khẩu, thuế tiêu thụ đặc biệt và thuế giá trị gia tăng. Đối với dòng xe Panamera, Cayenne, Macan và Taycan giá tiêu chuẩn bao gồm thêm gói dịch vụ 4 năm bảo dưỡng. Bảng giá, thông số kỹ thuật và hình ảnh có thể thay đổi theo từng thời điểm mà không báo trước.</p>
+    </div>
+
+    <script src="~/js/Porscher/slide.js"></script>
 </body>
 </html>

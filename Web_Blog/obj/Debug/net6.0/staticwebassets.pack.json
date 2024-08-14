@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\css\\CarBrands\\Index.css"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\Porscher\\detail_porscher.css",
+      "PackagePath": "staticwebassets\\css\\Porscher\\detail_porscher.css"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\Porscher\\index.css",
+      "PackagePath": "staticwebassets\\css\\Porscher\\index.css"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\Porscher\\logo_porscher.css",
+      "PackagePath": "staticwebassets\\css\\Porscher\\logo_porscher.css"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\home\\content-oto.css",
       "PackagePath": "staticwebassets\\css\\home\\content-oto.css"
     },
@@ -101,6 +113,10 @@
       "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 carrera t.png"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 carrera.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 carrera.png"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 dakar.png",
       "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 dakar.png"
     },
@@ -137,10 +153,6 @@
       "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 turbo.png"
     },
     {
-      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911_carrera.png",
-      "PackagePath": "staticwebassets\\image\\Poscher\\911\\911_carrera.png"
-    },
-    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\ford.jpg",
       "PackagePath": "staticwebassets\\image\\ford.jpg"
     },
@@ -161,12 +173,20 @@
       "PackagePath": "staticwebassets\\image\\image3.jpg"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_porscher.jpg",
+      "PackagePath": "staticwebassets\\image\\logo_porscher.jpg"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\toyota.jpg",
       "PackagePath": "staticwebassets\\image\\toyota.jpg"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\yamaha.jpg",
       "PackagePath": "staticwebassets\\image\\yamaha.jpg"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\Porscher\\slide.js",
+      "PackagePath": "staticwebassets\\js\\Porscher\\slide.js"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\home\\featured-slider.js",
