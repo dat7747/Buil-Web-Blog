@@ -65,6 +65,30 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\718\\718 boxster s.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\718\\718 boxster s.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\718\\718 boxster style edition.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\718\\718 boxster style edition.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\718\\718 boxster.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\718\\718 boxster.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\718\\718 cayman s.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\718\\718 cayman s.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\718\\718 cayman style edition.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\718\\718 cayman style edition.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\718\\718 cayman.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\718\\718 cayman.png"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 carrera 4 cabriolet.png",
       "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 carrera 4 cabriolet.png"
     },
@@ -151,6 +175,86 @@
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\911\\911 turbo.png",
       "PackagePath": "staticwebassets\\image\\Poscher\\911\\911 turbo.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Cayenne\\cayenne coupe.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Cayenne\\cayenne coupe.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Cayenne\\cayenne s coupe.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Cayenne\\cayenne s coupe.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Cayenne\\cayenne s.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Cayenne\\cayenne s.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Cayenne\\cayenne turbo gt.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Cayenne\\cayenne turbo gt.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Cayenne\\cayenne.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Cayenne\\cayenne.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Macan\\macan 4 electricity.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Macan\\macan 4 electricity.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Macan\\macan gts.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Macan\\macan gts.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Macan\\macan s.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Macan\\macan s.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Macan\\macan t.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Macan\\macan t.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Macan\\macan turbo electricity.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Macan\\macan turbo electricity.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Macan\\macan.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Macan\\macan.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Panamera\\panamera.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Panamera\\panamera.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Taycan\\taycan 4 cross turismo.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Taycan\\taycan 4 cross turismo.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Taycan\\taycan 4s cross turismo.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Taycan\\taycan 4s cross turismo.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Taycan\\taycan 4s.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Taycan\\taycan 4s.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Taycan\\taycan gts.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Taycan\\taycan gts.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Taycan\\taycan turbo cross turismo.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Taycan\\taycan turbo cross turismo.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Taycan\\taycan turbo s.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Taycan\\taycan turbo s.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Taycan\\taycan turbo.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Taycan\\taycan turbo.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\Taycan\\taycan.png",
+      "PackagePath": "staticwebassets\\image\\Poscher\\Taycan\\taycan.png"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\ford.jpg",

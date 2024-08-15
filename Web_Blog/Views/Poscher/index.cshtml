@@ -34,34 +34,34 @@
 
     <div class="slider-container">
         <div class="slider" id="slider">
-            @foreach (var poscher in Model.Poschers)
+            @foreach (var item in Model.Poschers)
             {
-                if (poscher.ImageExists)
+                if (item.ImageExists)
                 {
-                    var imagePath = Url.Content($"~/image/poscher/911/{poscher.Image}.png");
-                    <div class="slide" onclick="showCarDetails(
+                    var imagePath = Url.Content($"~/image/poscher/{item.LoaiPoscher.TenLoai}/{item.Image}.png");
+                    <div class="slide" data-brand-id="@item.LoaiPoscher.LoaiID" onclick="showCarDetails(
                         '@imagePath', 
-                        '@poscher.Ten', 
-                        '@poscher.GiaTieuChuan.ToString("N0", new CultureInfo("vi-VN")) VNĐ', 
-                        '@poscher.CongSuat', 
-                        '@poscher.MoMenXoanCucDai', 
-                        '@poscher.TangToc', 
-                        '@poscher.TocDoToiDa', 
-                        '@poscher.MucTieuThuKetHop', 
-                        '@poscher.LuongKhiThaiCO2',
-                        '@poscher.ChieuDai',
-                        '@poscher.ChieuRong')">
-                        <img src="@imagePath" alt="@poscher.Ten"/>
+                        '@item.Ten', 
+                        '@item.GiaTieuChuan.ToString("N0", new CultureInfo("vi-VN")) VNĐ', 
+                        '@item.CongSuat', 
+                        '@item.MoMenXoanCucDai', 
+                        '@item.TangToc', 
+                        '@item.TocDoToiDa', 
+                        '@item.MucTieuThuKetHop', 
+                        '@item.LuongKhiThaiCO2',
+                        '@item.ChieuDai',
+                        '@item.ChieuRong')">
+                        <img src="@imagePath" alt="@item.Ten"/>
                         <div class="slide-info">
-                            <p>@poscher.Ten</p>
-                            <p>Giá tiêu chuẩn: @poscher.GiaTieuChuan.ToString("N0", new CultureInfo("vi-VN")) VNĐ</p>
+                            <p>@item.Ten</p>
+                            <p>Giá tiêu chuẩn: @item.GiaTieuChuan.ToString("N0", new CultureInfo("vi-VN")) VNĐ</p>
                         </div>
                     </div>
                 }
                 else
                 {
                     <div class="slide">
-                        <p>Image for @poscher.Ten does not exist.</p>
+                        <p>Image for @item.Ten does not exist.</p>
                     </div>
                 }
             }
@@ -122,7 +122,6 @@
     <div class="italic">
         <p>* Giá tiêu chuẩn bao gồm thuế nhập khẩu, thuế tiêu thụ đặc biệt và thuế giá trị gia tăng. Đối với dòng xe Panamera, Cayenne, Macan và Taycan giá tiêu chuẩn bao gồm thêm gói dịch vụ 4 năm bảo dưỡng. Bảng giá, thông số kỹ thuật và hình ảnh có thể thay đổi theo từng thời điểm mà không báo trước.</p>
     </div>
-
     <script src="~/js/Porscher/slide.js"></script>
 </body>
 </html>
