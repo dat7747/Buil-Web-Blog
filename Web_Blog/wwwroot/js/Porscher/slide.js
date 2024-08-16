@@ -89,17 +89,15 @@ function filterProductsByBrand(brandId) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('Document loaded, adding event listeners.');
-
     const menuItems = document.querySelectorAll('.menu-item-car');
     menuItems.forEach(item => {
         item.addEventListener('click', function() {
             const brandId = this.getAttribute('data-brand-id');
             filterProductsByBrand(brandId);
+            showSlide(currentIndex);  // Đảm bảo gọi hàm showSlide khi brand được chọn
         });
     });
 
-    // Hiển thị sản phẩm của thương hiệu 911 khi vừa load trang
-    filterProductsByBrand(911);
-    showSlide(currentIndex); 
+    // Hiển thị slide đầu tiên
+    showSlide(currentIndex);
 });

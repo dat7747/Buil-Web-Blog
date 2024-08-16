@@ -1,0 +1,77 @@
+/* CSS cho slider */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+  height: 100%;
+}
+
+.slide {
+  width: 100%; /* Đặt mỗi slide chiếm 100% chiều rộng của slider-container */
+  box-sizing: border-box;
+  position: relative;
+  flex-shrink: 0; /* Ngăn slide bị co lại */
+  height: 100%;
+}
+
+.slide img {
+  max-width: 200%; /* Đảm bảo ảnh không vượt quá chiều rộng của slide */
+  max-height: 200%; /* Đảm bảo ảnh không vượt quá chiều cao của slide */
+  object-fit: cover; /* Đảm bảo ảnh lấp đầy khu vực mà không bị biến dạng */
+  transition: transform 0.3s ease;
+}
+
+
+.slide img:hover {
+  transform: scale(1.1);
+}
+
+.slide-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.slide:hover .slide-info {
+  opacity: 1;
+}
+
+.slide-info p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.slide-info p:first-child {
+  font-weight: bold;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}

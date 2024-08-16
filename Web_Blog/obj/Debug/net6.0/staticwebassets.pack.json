@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\CarBrands\\Index.css"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\Mercedes\\index.css",
+      "PackagePath": "staticwebassets\\css\\Mercedes\\index.css"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\Porscher\\detail_porscher.css",
       "PackagePath": "staticwebassets\\css\\Porscher\\detail_porscher.css"
     },
@@ -63,6 +67,74 @@
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\eqe suv.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\SUV\\eqe suv.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\eqs suv.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\SUV\\eqs suv.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\g class.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\SUV\\g class.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\gla.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\SUV\\gla.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\glb.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\SUV\\glb.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\glc 200.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\SUV\\glc 200.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\glc couple.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\SUV\\glc couple.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\glc.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\SUV\\glc.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\gle couple.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\SUV\\gle couple.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\gle.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\SUV\\gle.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\gls.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\SUV\\gls.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\mercedes maybach gls.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\SUV\\mercedes maybach gls.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\Sedans\\a class.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\Sedans\\a class.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\Sedans\\c class.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\Sedans\\c class.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\Sedans\\e class.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\Sedans\\e class.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\Sedans\\mercedes maybach s class.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\Sedans\\mercedes maybach s class.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\Sedans\\s class.png",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz\\Sedans\\s class.png"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\718\\718 boxster s.png",
@@ -257,14 +329,6 @@
       "PackagePath": "staticwebassets\\image\\Poscher\\Taycan\\taycan.png"
     },
     {
-      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\ford.jpg",
-      "PackagePath": "staticwebassets\\image\\ford.jpg"
-    },
-    {
-      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\honda.jpg",
-      "PackagePath": "staticwebassets\\image\\honda.jpg"
-    },
-    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\image1.jpg",
       "PackagePath": "staticwebassets\\image\\image1.jpg"
     },
@@ -277,16 +341,16 @@
       "PackagePath": "staticwebassets\\image\\image3.jpg"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_mercedes.jpg",
+      "PackagePath": "staticwebassets\\image\\logo_mercedes.jpg"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_porscher.jpg",
       "PackagePath": "staticwebassets\\image\\logo_porscher.jpg"
     },
     {
-      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\toyota.jpg",
-      "PackagePath": "staticwebassets\\image\\toyota.jpg"
-    },
-    {
-      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\yamaha.jpg",
-      "PackagePath": "staticwebassets\\image\\yamaha.jpg"
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\Mercedes\\slide.js",
+      "PackagePath": "staticwebassets\\js\\Mercedes\\slide.js"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\Porscher\\slide.js",

@@ -71,25 +71,3 @@
 .next {
     right: 10px;
 }
-
-/* CSS cho phần chi tiết xe */
-.car-details {
-    margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
-    text-align: center;
-}
-
-.car-details img {
-    max-width: 300px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.car-logo {
-    width: 100px; /* Thay đổi kích thước hình ảnh theo ý muốn */
-    height: auto; /* Giữ tỷ lệ khung hình của hình ảnh */
-    object-fit: contain; /* Đảm bảo hình ảnh không bị cắt và giữ nguyên tỷ lệ */
-}
-

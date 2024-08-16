@@ -11,6 +11,8 @@ namespace Web_Blog.Models
 
         public DbSet<Poscher> Poscher { get; set; } // Định nghĩa DbSet cho bảng Poscher
         public DbSet<LoaiPoscher> LoaiPoscher { get; set; }
+        public DbSet<Mercedes> Mercedes { get; set; }
+        public DbSet<LoaiMercedes> LoaiMercedes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -26,6 +28,11 @@ namespace Web_Blog.Models
                 .HasOne(p => p.LoaiPoscher)
                 .WithMany(l => l.Poschers)
                 .HasForeignKey(p => p.LoaiID);
+                
+            modelBuilder.Entity<Mercedes>()
+                .HasOne(m => m.LoaiMercedes)
+                .WithMany(l => l.MercedesList)
+                .HasForeignKey(m => m.LoaiID);    
         }
     }
 }
