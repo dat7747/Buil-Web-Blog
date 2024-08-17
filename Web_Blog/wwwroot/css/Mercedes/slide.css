@@ -1,0 +1,89 @@
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; /* Đảm bảo slider chiếm toàn bộ chiều rộng container */
+}
+
+.slide {
+    flex: 0 0 100%; /* Mỗi slide chiếm toàn bộ chiều rộng container */
+    box-sizing: border-box;
+    position: relative;
+}
+
+.slide img {
+    width: 100%; /* Ảnh chiếm toàn bộ chiều rộng slide */
+    height: auto; /* Đảm bảo ảnh không bị kéo dài */
+    display: block;
+}
+
+/* Định dạng cho thông tin slide */
+.slide-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6); /* Nền mờ tối để dễ đọc văn bản */
+    opacity: 0; /* Ẩn thông tin slide mặc định */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Hiệu ứng chuyển đổi mượt mà */
+    transform: translateY(100%); /* Đặt thông tin bên dưới ảnh */
+}
+
+/* Hiển thị thông tin khi hover */
+.slide:hover .slide-info {
+    opacity: 1; /* Hiện thông tin khi hover vào slide */
+    transform: translateY(0); /* Di chuyển thông tin lên khi hover */
+}
+
+/* Định dạng cho tên và giá sản phẩm */
+.slide-info .car-name {
+    font-weight: bold; /* Chữ đậm cho tên xe */
+    margin: 0; /* Bỏ khoảng cách phía trên */
+    font-size: 1.2em; /* Tăng kích thước chữ cho tên */
+}
+
+.slide-info .car-price {
+    margin-top: 50px; /* Khoảng cách phía trên của giá */
+    font-weight: bold; /* Chữ đậm cho giá */
+    font-size: 1.4em; /* Tăng kích thước chữ cho giá */
+    color: #d9534f; /* Màu đỏ cho giá */
+    /* Định dạng giá tiền */
+}
+
+/* Định dạng giá khi hover */
+.slide:hover .car-price {
+    color: #f1c40f; /* Màu vàng cho giá khi hover */
+    font-size: 1.6em; /* Tăng kích thước chữ cho giá khi hover */
+}
+
+/* Cải thiện hiển thị của các nút điều hướng */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1; /* Đảm bảo nút nằm trên các slide */
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

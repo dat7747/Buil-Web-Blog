@@ -39,19 +39,19 @@
                 if (item.ImageExists)
                 {
                     var imagePath = Url.Content($"~/image/poscher/{item.LoaiPoscher.TenLoai}/{item.Image}.png");
-                    <div class="slide" data-brand-id="@item.LoaiPoscher.LoaiID" onclick="showCarDetails(
-                        '@imagePath', 
-                        '@item.Ten', 
-                        '@item.GiaTieuChuan.ToString("N0", new CultureInfo("vi-VN")) VNĐ', 
-                        '@item.CongSuat', 
-                        '@item.MoMenXoanCucDai', 
-                        '@item.TangToc', 
-                        '@item.TocDoToiDa', 
-                        '@item.MucTieuThuKetHop', 
-                        '@item.LuongKhiThaiCO2',
-                        '@item.ChieuDai',
-                        '@item.ChieuRong')">
-                        <img src="@imagePath" alt="@item.Ten"/>
+                    <div class="slide" data-brand-id="@item.LoaiPoscher.LoaiID" style="display:block;">
+                        <img src="@imagePath" alt="@item.Ten" onclick="showCarDetails(
+                            '@imagePath', 
+                            '@item.Ten', 
+                            '@item.GiaTieuChuan.ToString("N0", new CultureInfo("vi-VN")) VNĐ', 
+                            '@item.CongSuat', 
+                            '@item.MoMenXoanCucDai', 
+                            '@item.TangToc', 
+                            '@item.TocDoToiDa', 
+                            '@item.MucTieuThuKetHop', 
+                            '@item.LuongKhiThaiCO2',
+                            '@item.ChieuDai',
+                            '@item.ChieuRong')"/>
                         <div class="slide-info">
                             <p>@item.Ten</p>
                             <p>Giá tiêu chuẩn: @item.GiaTieuChuan.ToString("N0", new CultureInfo("vi-VN")) VNĐ</p>
@@ -60,7 +60,7 @@
                 }
                 else
                 {
-                    <div class="slide">
+                    <div class="slide" style="display:block;">
                         <p>Image for @item.Ten does not exist.</p>
                     </div>
                 }
@@ -69,6 +69,7 @@
         <button class="prev" onclick="prevSlide()">&#10094;</button>
         <button class="next" onclick="nextSlide()">&#10095;</button>
     </div>
+
 
     <!-- Thêm phần hiển thị thông tin xe đã chọn -->
     <div class="car-info-container">
@@ -121,6 +122,9 @@
 
     <div class="italic">
         <p>* Giá tiêu chuẩn bao gồm thuế nhập khẩu, thuế tiêu thụ đặc biệt và thuế giá trị gia tăng. Đối với dòng xe Panamera, Cayenne, Macan và Taycan giá tiêu chuẩn bao gồm thêm gói dịch vụ 4 năm bảo dưỡng. Bảng giá, thông số kỹ thuật và hình ảnh có thể thay đổi theo từng thời điểm mà không báo trước.</p>
+    </div>
+    <div>
+        Nguồn: Porscher Việt Nam
     </div>
     <script src="~/js/Porscher/slide.js"></script>
 </body>

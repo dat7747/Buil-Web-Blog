@@ -27,6 +27,7 @@ namespace Web_Blog.Models
         [NotMapped]
         public bool ImageExists { get; set; }
 
+        public decimal? Gia { get; set; } // Giá
         public int LoaiID { get; set; } // Khóa ngoại tới LoaiMercedes
         public LoaiMercedes LoaiMercedes { get; set; } // Điều hướng tới LoaiMercedes
     }

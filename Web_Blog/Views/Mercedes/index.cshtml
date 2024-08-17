@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/CarBrands/index.css">
-    <link rel="stylesheet" href="~/css/Mercedes/index.css">
+    <link rel="stylesheet" href="~/css/Mercedes/slide.css">
     <link rel="stylesheet" href="~/css/Porscher/detail_porscher.css">
     <link rel="stylesheet" href="~/css/Porscher/logo_porscher.css">
 </head>
@@ -35,47 +35,35 @@
         <div class="slider" id="slider">
             @foreach (var item in Model.MercedesList)
             {
-                <div class="log-info">
-                    @if (item.ImageExists)
-                    {
-                        var imagePath = Url.Content($"~/image/Mercedes-Benz/{item.LoaiMercedes.TenLoai}/{item.Image}.png");
-                        <div class="slide" data-brand-id="@item.LoaiMercedes.LoaiID" onclick="showCarDetails(
-                            '@imagePath', 
-                            '@item.Ten', 
-                            '@item.TocDoCaoNhat', 
-                            '@item.CongSuat', 
-                            '@item.TangToc', 
-                            '@item.MucTieuThuNhienLieu', 
-                            '@item.ChuTrinhDoThiCoBan', 
-                            '@item.ChuTrinhDoThiPhu')">
-                            <img src="@imagePath" alt="@item.Ten"/>
-                            <div class="slide-info">
-                                <p>@item.Ten</p>
-                            </div>
-                        </div>
-                    }
-                    else
-                    {
-                        <div class="slide">
-                            <p>Image for @item.Ten does not exist.</p>
-                        </div>
-                    }
+                <div class="slide" data-brand-id="@item.LoaiMercedes.LoaiID" onclick="showCarDetails(
+                    '@Url.Content($"~/image/Mercedes/{item.LoaiMercedes.TenLoai}/{item.Image}.png")', 
+                    '@item.Ten', 
+                    '@item.TocDoCaoNhat', 
+                    '@item.CongSuat', 
+                    '@item.TangToc', 
+                    '@item.MucTieuThuNhienLieu', 
+                    '@item.ChuTrinhDoThiCoBan', 
+                    '@item.ChuTrinhDoThiPhu',
+                    '@item.Gia')">
+                    <img src="@Url.Content($"~/image/Mercedes/{item.LoaiMercedes.TenLoai}/{item.Image}.png")" alt="@item.Ten"/>
+                    <div class="slide-info">
+                        <p class="car-name">@item.Ten</p>
+                        <p class="car-price" data-price="@item.Gia">@item.Gia</p>
+                    </div>
                 </div>
             }
         </div>
-        <!-- Nút điều hướng -->
         <button class="prev" onclick="prevSlide()">&#10094;</button>
         <button class="next" onclick="nextSlide()">&#10095;</button>
     </div>
 
-    <!-- Thêm phần hiển thị thông tin xe đã chọn -->
+
     <div class="car-info-container">
         <div class="image-container">
-            <!-- Thêm dòng hiển thị tên xe phía trên ảnh -->
             <div class="car-name">
                 <h2 id="carName">Mercedes-Benz S-Class</h2>
             </div>
-            <img id="carImage" src="~/image/Mercedes-Benz/Sedans/a class.png" alt="Mercedes S-Class">
+            <img id="carImage" src="~/image/Mercedes/Sedans/a class.png" alt="Mercedes S-Class">
         </div>
 
         <div class="specifications-container">
@@ -87,30 +75,61 @@
                 </tr>
                 <tr>
                     <th>Công suất</th>
-                    <td id="carPower">367 kW</td>
+                    <td id="carPower">350 kW</td>
                 </tr>
                 <tr>
-                    <th>Tăng tốc từ 0 - 100 km/giờ</th>
-                    <td id="carAcceleration">4.8 giây</td>
+                    <th>Tăng tốc</th>
+                    <td id="carAcceleration">5.2 giây</td>
                 </tr>
                 <tr>
-                    <th>Mức tiêu thụ nhiên liệu</th>
+                    <th>Tiêu thụ nhiên liệu</th>
                     <td id="carFuelConsumption">8.5 l/100 km</td>
                 </tr>
                 <tr>
-                    <th>Chu trình đô thị cơ bản</th>
-                    <td id="carUrbanCycle">10.3 l/100 km</td>
+                    <th>Chu trình đô thị</th>
+                    <td id="carUrbanCycle">10 l/100 km</td>
                 </tr>
                 <tr>
-                    <th>Chu trình đô thị phụ</th>
-                    <td id="carExtraUrbanCycle">6.5 l/100 km</td>
+                    <th>Chu trình ngoại đô</th>
+                    <td id="carExtraUrbanCycle">7 l/100 km</td>
+                </tr>
+                <tr>
+                    <th>Giá</th>
+                    <td id="carPrice">2,500,000,000 VNĐ</td>
                 </tr>
             </table>
         </div>
     </div>
-    <div class="italic">
+        <div class="italic">
         <p>* Giá tiêu chuẩn bao gồm thuế nhập khẩu, thuế tiêu thụ đặc biệt và thuế giá trị gia tăng. Đối với dòng xe Panamera, Cayenne, Macan và Taycan giá tiêu chuẩn bao gồm thêm gói dịch vụ 4 năm bảo dưỡng. Bảng giá, thông số kỹ thuật và hình ảnh có thể thay đổi theo từng thời điểm mà không báo trước.</p>
     </div>
+    <div>
+        Nguồn: Mercedes-Benz Việt Nam
+    </div>
     <script src="~/js/Mercedes/slide.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const priceElements = document.querySelectorAll('.car-price');
+            
+            priceElements.forEach((element) => {
+                let price = element.getAttribute('data-price');
+                if (price !== null) {
+                    const formattedPrice = price.replace(/\B(?=(\d{3})+(?!\d))/g, '.') + ' VNĐ';
+                    
+                    // Hiển thị giá đã được định dạng ngay từ đầu
+                    element.textContent = formattedPrice;
+                    
+                    // Thêm sự kiện để đổi lại giá gốc khi hover (nếu cần)
+                    element.addEventListener('mouseover', () => {
+                        element.textContent = formattedPrice;
+                    });
+                    element.addEventListener('mouseout', () => {
+                        element.textContent = formattedPrice;
+                    });
+                }
+            });
+        });
+
+    </script>
 </body>
 </html>

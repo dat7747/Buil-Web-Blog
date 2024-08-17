@@ -1,5 +1,6 @@
 let currentIndex = 0;
 
+
 function showSlide(index) {
     const slides = document.querySelectorAll('.slide');
     const totalSlides = slides.length;
@@ -14,11 +15,8 @@ function showSlide(index) {
         currentIndex = index;
     }
 
-    const visibleSlides = Array.from(slides).filter(slide => slide.style.display === 'block');
-    if (visibleSlides.length > 0) {
-        const slideWidth = visibleSlides[0].clientWidth;
-        document.querySelector('.slider').style.transform = `translateX(${-slideWidth * currentIndex}px)`;
-    }
+    const slideWidth = slides[currentIndex].clientWidth;
+    document.querySelector('.slider').style.transform = `translateX(${-slideWidth * currentIndex}px)`;
 }
 
 function nextSlide() {
@@ -30,7 +28,6 @@ function prevSlide() {
 }
 
 function showCarDetails(imagePath, carName, carPrice, carPower, carTorque, carAcceleration, carTopSpeed, carFuelConsumption, carCO2Emissions, carLength, carHeight) {
-    console.log('Showing car details:', carName); // Kiểm tra thông tin xe
     const carImage = document.getElementById('carImage');
     const carNameElement = document.getElementById('carName');
     const carPowerElement = document.getElementById('carPower');
@@ -76,17 +73,16 @@ function filterProductsByBrand(brandId) {
     currentIndex = 0;
 
     if (filteredSlides.length > 0) {
-        const slideWidth = filteredSlides[0].clientWidth;
-        document.querySelector('.slider').style.transform = `translateX(0px)`;
+        showSlide(currentIndex);
     } else {
         console.warn('No slides available for the selected brand.');
-        // Fallback: Hiển thị tất cả slide nếu không có kết quả
         slides.forEach(slide => {
             slide.style.display = 'block';
         });
-        document.querySelector('.slider').style.transform = `translateX(0px)`;
+        showSlide(currentIndex);
     }
 }
+
 
 document.addEventListener('DOMContentLoaded', function() {
     const menuItems = document.querySelectorAll('.menu-item-car');
@@ -94,7 +90,6 @@ document.addEventListener('DOMContentLoaded', function() {
         item.addEventListener('click', function() {
             const brandId = this.getAttribute('data-brand-id');
             filterProductsByBrand(brandId);
-            showSlide(currentIndex);  // Đảm bảo gọi hàm showSlide khi brand được chọn
         });
     });
 

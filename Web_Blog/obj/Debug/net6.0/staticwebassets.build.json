@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2AlZ64FA8CDvXnodok6Kp9zLya91f5laJ7UNo7ujfi4=",
+  "Hash": "078onySCkj0U/ObbEcwVZvfJ2Ab0+NK+5vBegLgcbOc=",
   "Source": "Web_Blog",
   "BasePath": "_content/Web_Blog",
   "Mode": "Default",
@@ -207,12 +207,12 @@
       "OriginalItemSpec": "wwwroot\\css\\input.css"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\Mercedes\\index.css",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\Mercedes\\slide.css",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "css/Mercedes/index.css",
+      "RelativePath": "css/Mercedes/slide.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -223,7 +223,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Mercedes\\index.css"
+      "OriginalItemSpec": "wwwroot\\css\\Mercedes\\slide.css"
     },
     {
       "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\output.css",
@@ -435,12 +435,12 @@
       "OriginalItemSpec": "wwwroot\\image\\logo_porscher.jpg"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\Sedans\\a class.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\Cabriolet\\mercedes amg sl roadster.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/Sedans/a class.png",
+      "RelativePath": "image/Mercedes/Cabriolet/mercedes amg sl roadster.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -451,15 +451,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\Sedans\\a class.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\Cabriolet\\mercedes amg sl roadster.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\Sedans\\c class.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\Coupe\\mercedes amg gt4 door coupe.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/Sedans/c class.png",
+      "RelativePath": "image/Mercedes/Coupe/mercedes amg gt4 door coupe.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -470,15 +470,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\Sedans\\c class.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\Coupe\\mercedes amg gt4 door coupe.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\Sedans\\e class.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\Multi_use\\v class.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/Sedans/e class.png",
+      "RelativePath": "image/Mercedes/Multi_use/v class.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -489,15 +489,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\Sedans\\e class.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\Multi_use\\v class.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\Sedans\\mercedes maybach s class.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\Sedans\\a class.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/Sedans/mercedes maybach s class.png",
+      "RelativePath": "image/Mercedes/Sedans/a class.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -508,15 +508,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\Sedans\\mercedes maybach s class.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\Sedans\\a class.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\Sedans\\s class.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\Sedans\\c class.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/Sedans/s class.png",
+      "RelativePath": "image/Mercedes/Sedans/c class.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -527,15 +527,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\Sedans\\s class.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\Sedans\\c class.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\eqe suv.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\Sedans\\e class.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/SUV/eqe suv.png",
+      "RelativePath": "image/Mercedes/Sedans/e class.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -546,15 +546,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\SUV\\eqe suv.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\Sedans\\e class.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\eqs suv.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\Sedans\\mercedes maybach s class.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/SUV/eqs suv.png",
+      "RelativePath": "image/Mercedes/Sedans/mercedes maybach s class.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -565,15 +565,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\SUV\\eqs suv.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\Sedans\\mercedes maybach s class.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\g class.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\Sedans\\s class.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/SUV/g class.png",
+      "RelativePath": "image/Mercedes/Sedans/s class.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -584,15 +584,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\SUV\\g class.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\Sedans\\s class.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\gla.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\SUV\\g class.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/SUV/gla.png",
+      "RelativePath": "image/Mercedes/SUV/g class.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -603,15 +603,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\SUV\\gla.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\SUV\\g class.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\glb.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\SUV\\gla.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/SUV/glb.png",
+      "RelativePath": "image/Mercedes/SUV/gla.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -622,15 +622,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\SUV\\glb.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\SUV\\gla.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\glc 200.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\SUV\\glb.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/SUV/glc 200.png",
+      "RelativePath": "image/Mercedes/SUV/glb.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -641,15 +641,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\SUV\\glc 200.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\SUV\\glb.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\glc couple.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\SUV\\glc coupe.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/SUV/glc couple.png",
+      "RelativePath": "image/Mercedes/SUV/glc coupe.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -660,15 +660,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\SUV\\glc couple.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\SUV\\glc coupe.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\glc.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\SUV\\glc.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/SUV/glc.png",
+      "RelativePath": "image/Mercedes/SUV/glc.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -679,15 +679,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\SUV\\glc.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\SUV\\glc.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\gle couple.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\SUV\\gle coupe.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/SUV/gle couple.png",
+      "RelativePath": "image/Mercedes/SUV/gle coupe.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -698,15 +698,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\SUV\\gle couple.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\SUV\\gle coupe.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\gle.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\SUV\\gle.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/SUV/gle.png",
+      "RelativePath": "image/Mercedes/SUV/gle.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -717,15 +717,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\SUV\\gle.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\SUV\\gle.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\gls.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\SUV\\gls suv.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/SUV/gls.png",
+      "RelativePath": "image/Mercedes/SUV/gls suv.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -736,15 +736,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\SUV\\gls.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\SUV\\gls suv.png"
     },
     {
-      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes-Benz\\SUV\\mercedes maybach gls.png",
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\SUV\\mercedes maybach gls.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
       "BasePath": "_content/Web_Blog",
-      "RelativePath": "image/Mercedes-Benz/SUV/mercedes maybach gls.png",
+      "RelativePath": "image/Mercedes/SUV/mercedes maybach gls.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -755,7 +755,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mercedes-Benz\\SUV\\mercedes maybach gls.png"
+      "OriginalItemSpec": "wwwroot\\image\\Mercedes\\SUV\\mercedes maybach gls.png"
     },
     {
       "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\718\\718 boxster s.png",

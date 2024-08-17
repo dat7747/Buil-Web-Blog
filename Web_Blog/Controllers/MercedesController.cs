@@ -24,7 +24,7 @@ namespace Web_Blog.Controllers
             foreach (var mercedes in mercedesList)
             {
                 var imageName = mercedes.Image?.Trim().ToLower();
-                var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "image", "Mercedes-Benz", mercedes.LoaiMercedes.TenLoai, imageName + ".png");
+                var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "image", "Mercedes", mercedes.LoaiMercedes.TenLoai, imageName + ".png");
 
                 // Kiểm tra sự tồn tại của file ảnh
                 mercedes.ImageExists = !string.IsNullOrEmpty(imageName) && System.IO.File.Exists(imagePath);

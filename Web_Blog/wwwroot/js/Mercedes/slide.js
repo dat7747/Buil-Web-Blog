@@ -1,6 +1,10 @@
 let currentIndex = 0;
-const slidesToShow = 2; // Số ảnh hiển thị trong mỗi lần lướt
-const slidesToScroll = 2; // Số ảnh di chuyển mỗi lần lướt
+
+function formatCurrency(amount) {
+    let formattedAmount = amount.toString();
+    formattedAmount = formattedAmount.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+    return formattedAmount + ' VNĐ';
+}
 
 function showSlide(index) {
     const slides = document.querySelectorAll('.slide');
@@ -8,16 +12,15 @@ function showSlide(index) {
 
     if (totalSlides === 0) return;
 
-    // Xử lý khi index vượt quá số lượng slide
-    if (index >= Math.ceil(totalSlides / slidesToScroll)) {
+    if (index >= totalSlides) {
         currentIndex = 0;
     } else if (index < 0) {
-        currentIndex = Math.ceil(totalSlides / slidesToScroll) - 1;
+        currentIndex = totalSlides - 1;
     } else {
         currentIndex = index;
     }
 
-    const slideWidth = document.querySelector('.slider-container').clientWidth / slidesToShow;
+    const slideWidth = document.querySelector('.slider-container').clientWidth;
     document.querySelector('.slider').style.transform = `translateX(${-slideWidth * currentIndex}px)`;
 }
 
@@ -28,7 +31,8 @@ function nextSlide() {
 function prevSlide() {
     showSlide(currentIndex - 1);
 }
-function showCarDetails(imagePath, carName, carTopSpeed, carPower, carAcceleration, carFuelConsumption, carUrbanCycle, carExtraUrbanCycle) {
+
+function showCarDetails(imagePath, carName, carTopSpeed, carPower, carAcceleration, carFuelConsumption, carUrbanCycle, carExtraUrbanCycle, carPrice) {
     const carImage = document.getElementById('carImage');
     const carNameElement = document.getElementById('carName');
     const carTopSpeedElement = document.getElementById('carTopSpeed');
@@ -37,8 +41,9 @@ function showCarDetails(imagePath, carName, carTopSpeed, carPower, carAccelerati
     const carFuelConsumptionElement = document.getElementById('carFuelConsumption');
     const carUrbanCycleElement = document.getElementById('carUrbanCycle');
     const carExtraUrbanCycleElement = document.getElementById('carExtraUrbanCycle');
+    const carPriceElement = document.getElementById('carPrice');
 
-    if (carImage && carNameElement && carTopSpeedElement && carPowerElement && carAccelerationElement && carFuelConsumptionElement && carUrbanCycleElement && carExtraUrbanCycleElement) {
+    if (carImage && carNameElement && carTopSpeedElement && carPowerElement && carAccelerationElement && carFuelConsumptionElement && carUrbanCycleElement && carExtraUrbanCycleElement && carPriceElement) {
         carImage.src = imagePath;
         carNameElement.textContent = carName;
         carTopSpeedElement.textContent = carTopSpeed + " km/h";
@@ -47,6 +52,7 @@ function showCarDetails(imagePath, carName, carTopSpeed, carPower, carAccelerati
         carFuelConsumptionElement.textContent = carFuelConsumption + " l/100 km";
         carUrbanCycleElement.textContent = carUrbanCycle + " l/100 km";
         carExtraUrbanCycleElement.textContent = carExtraUrbanCycle + " l/100 km";
+        carPriceElement.textContent = formatCurrency(carPrice); // Hiển thị giá với định dạng
     } else {
         console.error('One or more car detail elements are missing.');
     }
@@ -63,15 +69,14 @@ function filterProductsByBrand(brandId) {
         slide.style.display = 'block';
     });
 
-    currentIndex = 0;
-
     if (filteredSlides.length > 0) {
-        showSlide(currentIndex); // Hiển thị lại slide
+        currentIndex = 0;
+        showSlide(currentIndex); // Hiển thị slide đầu tiên của thương hiệu đã chọn
     } else {
         slides.forEach(slide => {
             slide.style.display = 'block';
         });
-        showSlide(currentIndex); // Hiển thị lại slide
+        showSlide(currentIndex); // Hiển thị slide đầu tiên nếu không có thương hiệu nào được chọn
     }
 }
 
