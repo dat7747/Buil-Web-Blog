@@ -1,0 +1,100 @@
+@using System.Globalization
+
+@{
+    ViewData["Title"] = "Audi Page";
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/CarBrands/index.css">
+    <link rel="stylesheet" href="~/css/Audi/slide.css">
+    <link rel="stylesheet" href="~/css/Porscher/detail_porscher.css">
+    <link rel="stylesheet" href="~/css/Porscher/logo_porscher.css">
+</head>
+<body>
+    <div class="car-brands-container">
+        <div class="menu-car">
+           @foreach (var brand in Model.Brands)
+            {
+                <div class="menu-item-car" data-brand-id="@brand.LoaiAudiID">
+                    @brand.Ten
+                </div>
+            }
+        </div>
+    </div>
+    <div class="center-content">
+        <img id="logo" src="~/image/logo_audi.png" alt="Audi Logo">
+        <h3>AUDI</h3>
+    </div>
+    <div class="slider-container">
+        <div class="slider" id="slider">
+            @foreach (var item in Model.AudiList)
+            {
+                <div class="slide" data-brand-id="@item.LoaiAudi.LoaiAudiID" onclick="showCarDetails(
+                    '@Url.Content($"~/image/Audi/{item.LoaiAudi.Ten}/{item.Image}.png")', 
+                    '@item.Ten', 
+                    '@item.CongSuatDienToiDa', 
+                    '@item.TangToc', 
+                    '@item.MoMenXoanToiDa', 
+                    '@item.TocDoToiDa', 
+                    '@item.Gia')">
+                    <img src="@Url.Content($"~/image/Audi/{item.LoaiAudi.Ten}/{item.Image}.png")" alt="@item.Ten"/>
+                    <div class="slide-info">
+                        <p class="car-name">@item.Ten</p>
+                        <p class="car-price" data-price="@item.Gia">@item.Gia</p>
+                    </div>
+                </div>
+            }
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+
+    <div class="car-info-container">
+        <div class="image-container">
+            <div class="car-name">
+                <h2 id="carName">Audi A6</h2>
+            </div>
+            <img id="carImage" src="~/image/Audi/Saloon/a6.png" alt="Audi A6">
+        </div>
+
+        <div class="specifications-container">
+            <h1>Thông số kỹ thuật</h1>
+            <table>
+                <tr>
+                    <th>Công suất</th>
+                    <td id="carPower">480 kW</td>
+                </tr>
+                <tr>
+                    <th>Mô men xoắn cực đại</th>
+                    <td id="carTorque">570 năm</td>
+                </tr>
+                <tr>
+                    <th>Tăng tốc từ 0 - 100 km/giờ (0 - 62 dặm/giờ)</th>
+                    <td id="carAcceleration">3.3 giây</td>
+                </tr>
+                <tr>
+                    <th>Tốc độ tối đa</th>
+                    <td id="carTopSpeed">309 km/giờ</td>
+                </tr>
+                <tr>
+                    <th>Giá tiêu chuẩn</th>
+                    <td id="carPrice">10.120.000.000 VNĐ</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+        <div class="italic">
+        <p>* Giá tiêu chuẩn bao gồm thuế nhập khẩu, thuế tiêu thụ đặc biệt và thuế giá trị gia tăng. Đối với dòng xe Panamera, Cayenne, Macan và Taycan giá tiêu chuẩn bao gồm thêm gói dịch vụ 4 năm bảo dưỡng. Bảng giá, thông số kỹ thuật và hình ảnh có thể thay đổi theo từng thời điểm mà không báo trước.</p>
+    </div>
+    <div>
+        Nguồn: Audi Việt Nam
+    </div>
+    <script src="~/js/Audi/slide.js"></script>
+</body>
+</html>

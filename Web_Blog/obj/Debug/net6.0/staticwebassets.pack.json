@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\content\\thegioxehoi.html"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\Audi\\slide.css",
+      "PackagePath": "staticwebassets\\css\\Audi\\slide.css"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\CarBrands\\Index.css",
       "PackagePath": "staticwebassets\\css\\CarBrands\\Index.css"
     },
@@ -67,6 +71,70 @@
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\SUV\\audi e tron.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\SUV\\audi e tron.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\SUV\\q2.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\SUV\\q2.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\SUV\\q3 sportback.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\SUV\\q3 sportback.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\SUV\\q3.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\SUV\\q3.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\SUV\\q5 sportback.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\SUV\\q5 sportback.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\SUV\\q5.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\SUV\\q5.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\SUV\\q7.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\SUV\\q7.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\SUV\\q8 e tron.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\SUV\\q8 e tron.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\SUV\\q8.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\SUV\\q8.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\Saloon\\a4.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\Saloon\\a4.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\Saloon\\a6.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\Saloon\\a6.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\Saloon\\a8.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\Saloon\\a8.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\Sport\\rs e tron gt.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\Sport\\rs e tron gt.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\Sportback\\a7.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\Sportback\\a7.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\Sportback\\q3.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\Sportback\\q3.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Audi\\Sportback\\q5.png",
+      "PackagePath": "staticwebassets\\image\\Audi\\Sportback\\q5.png"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\Cabriolet\\mercedes amg sl roadster.png",
@@ -341,12 +409,20 @@
       "PackagePath": "staticwebassets\\image\\image3.jpg"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_audi.png",
+      "PackagePath": "staticwebassets\\image\\logo_audi.png"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_mercedes.jpg",
       "PackagePath": "staticwebassets\\image\\logo_mercedes.jpg"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_porscher.jpg",
       "PackagePath": "staticwebassets\\image\\logo_porscher.jpg"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\Audi\\slide.js",
+      "PackagePath": "staticwebassets\\js\\Audi\\slide.js"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\Mercedes\\slide.js",

@@ -9,20 +9,22 @@ namespace Web_Blog.Models
         {
         }
 
-        public DbSet<Poscher> Poscher { get; set; } // Định nghĩa DbSet cho bảng Poscher
+        public DbSet<Poscher> Poscher { get; set; } 
         public DbSet<LoaiPoscher> LoaiPoscher { get; set; }
         public DbSet<Mercedes> Mercedes { get; set; }
         public DbSet<LoaiMercedes> LoaiMercedes { get; set; }
+        public DbSet<Audi> Audi { get; set; } 
+        public DbSet<LoaiAudi> LoaiAudi { get; set; } 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Poscher>()
                 .Property(p => p.Image)
-                .HasColumnName("Image"); // Đảm bảo rằng tên cột đúng
+                .HasColumnName("Image"); 
 
             modelBuilder.Entity<LoaiPoscher>()
                 .Property(l => l.TenLoai)
-                .HasColumnName("TenLoai"); // Đảm bảo rằng tên cột đúng
+                .HasColumnName("TenLoai");
 
             modelBuilder.Entity<Poscher>()
                 .HasOne(p => p.LoaiPoscher)
@@ -32,7 +34,11 @@ namespace Web_Blog.Models
             modelBuilder.Entity<Mercedes>()
                 .HasOne(m => m.LoaiMercedes)
                 .WithMany(l => l.MercedesList)
-                .HasForeignKey(m => m.LoaiID);    
+                .HasForeignKey(m => m.LoaiID);
+            modelBuilder.Entity<Audi>()
+                .HasOne(a => a.LoaiAudi)
+                .WithMany(l => l.AudiList)
+                .HasForeignKey(a => a.LoaiID);    
         }
     }
 }

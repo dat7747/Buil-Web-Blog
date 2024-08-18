@@ -9,13 +9,15 @@
 .slider {
     display: flex;
     transition: transform 0.5s ease;
-    width: 100%; /* Đảm bảo slider chiếm toàn bộ chiều rộng container */
+    width: 100%;
 }
 
 .slide {
-    flex: 0 0 100%; /* Mỗi slide chiếm toàn bộ chiều rộng container */
+    flex: 0 0 auto; /* Cho phép các slide có chiều rộng khác nhau */
+    width: 100%; /* Đặt chiều rộng mặc định cho slide */
     box-sizing: border-box;
     position: relative;
+    overflow: hidden;
 }
 
 .slide img {
@@ -34,37 +36,36 @@
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
-    background: rgba(0, 0, 0, 0.6); /* Nền mờ tối để dễ đọc văn bản */
-    opacity: 0; /* Ẩn thông tin slide mặc định */
-    transition: opacity 0.3s ease, transform 0.3s ease; /* Hiệu ứng chuyển đổi mượt mà */
-    transform: translateY(100%); /* Đặt thông tin bên dưới ảnh */
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(100%);
 }
 
 /* Hiển thị thông tin khi hover */
 .slide:hover .slide-info {
-    opacity: 1; /* Hiện thông tin khi hover vào slide */
-    transform: translateY(0); /* Di chuyển thông tin lên khi hover */
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* Định dạng cho tên và giá sản phẩm */
 .slide-info .car-name {
-    font-weight: bold; /* Chữ đậm cho tên xe */
-    margin: 0; /* Bỏ khoảng cách phía trên */
-    font-size: 1.2em; /* Tăng kích thước chữ cho tên */
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.2em;
 }
 
 .slide-info .car-price {
-    margin-top: 50px; /* Khoảng cách phía trên của giá */
-    font-weight: bold; /* Chữ đậm cho giá */
-    font-size: 1.4em; /* Tăng kích thước chữ cho giá */
-    color: #d9534f; /* Màu đỏ cho giá */
-    /* Định dạng giá tiền */
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #d9534f;
 }
 
 /* Định dạng giá khi hover */
 .slide:hover .car-price {
-    color: #f1c40f; /* Màu vàng cho giá khi hover */
-    font-size: 1.6em; /* Tăng kích thước chữ cho giá khi hover */
+    color: #f1c40f;
+    font-size: 1.6em;
 }
 
 /* Cải thiện hiển thị của các nút điều hướng */
@@ -77,7 +78,7 @@
     border: none;
     padding: 10px;
     cursor: pointer;
-    z-index: 1; /* Đảm bảo nút nằm trên các slide */
+    z-index: 1;
 }
 
 .prev {
