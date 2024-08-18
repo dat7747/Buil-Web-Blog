@@ -137,6 +137,70 @@
       "PackagePath": "staticwebassets\\image\\Audi\\Sportback\\q5.png"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW ELECTRIC\\bmw i3.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW ELECTRIC\\bmw i3.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW ELECTRIC\\bmw i4.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW ELECTRIC\\bmw i4.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW ELECTRIC\\bmw i7.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW ELECTRIC\\bmw i7.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW SERIES\\bmw 3.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW SERIES\\bmw 3.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW SERIES\\bmw 4 convertible.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW SERIES\\bmw 4 convertible.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW SERIES\\bmw 4 gran coupe.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW SERIES\\bmw 4 gran coupe.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW SERIES\\bmw 5.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW SERIES\\bmw 5.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW SERIES\\bmw 7.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW SERIES\\bmw 7.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW SERIES\\bmw 8 gran coupe.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW SERIES\\bmw 8 gran coupe.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW X\\bmw x3.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW X\\bmw x3.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW X\\bmw x4.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW X\\bmw x4.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW X\\bmw x5.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW X\\bmw x5.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW X\\bmw x6.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW X\\bmw x6.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW X\\bmw x7.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW X\\bmw x7.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW X\\bmw xm.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW X\\bmw xm.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\BMW\\BMW Z\\bmw z4.png",
+      "PackagePath": "staticwebassets\\image\\BMW\\BMW Z\\bmw z4.png"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Mercedes\\Cabriolet\\mercedes amg sl roadster.png",
       "PackagePath": "staticwebassets\\image\\Mercedes\\Cabriolet\\mercedes amg sl roadster.png"
     },
@@ -411,6 +475,10 @@
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_audi.png",
       "PackagePath": "staticwebassets\\image\\logo_audi.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_bmw.jpg",
+      "PackagePath": "staticwebassets\\image\\logo_bmw.jpg"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_mercedes.jpg",
