@@ -1,0 +1,121 @@
+@using System.Globalization
+
+@{
+    ViewData["Title"] = "Lamborghini Page";
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/CarBrands/index.css">
+    <link rel="stylesheet" href="~/css/Audi/slide.css">
+    <link rel="stylesheet" href="~/css/Porscher/detail_porscher.css">
+    <link rel="stylesheet" href="~/css/Porscher/logo_porscher.css">
+</head>
+<body>
+    <div class="car-brands-container">
+        <div class="menu-car">
+           @foreach (var brand in Model.Brands)
+            {
+                <div class="menu-item-car" data-brand-id="@brand.LoaiID">
+                    @brand.TenLoai 
+                </div>
+            }
+        </div>
+    </div>
+    <div class="center-content">
+        <img id="logo" src="~/image/logo_lamborghini.jpg" alt="Lamborghini Logo">
+        <h3>Ferrari</h3>
+    </div>
+    <div class="slider-container">
+        <div class="slider" id="slider">
+            @foreach (var item in Model.LamborghiniList)
+            {
+                <div class="slide" data-brand-id="@item.LoaiLamborghini.LoaiID" onclick="showCarDetails(
+                    '@Url.Content($"~/image/Lamborghini/{item.LoaiLamborghini.TenLoai}/{item.Image}.png")', 
+                    '@item.Ten', 
+                    '@item.CongSuatDienToiDa', 
+                    '@item.TangToc', 
+                    '@item.MoMenXoanToiDa', 
+                    '@item.TocDoToiDa', 
+                    '@item.Gia')">
+                    <img src="@Url.Content($"~/image/Lamborghini/{item.LoaiLamborghini.TenLoai}/{item.Image}.png")" alt="@item.Ten"/>
+                    <div class="slide-info">
+                        <p class="car-name">@item.Ten</p>
+                        <p class="car-price" data-price="@item.Gia">@item.Gia</p>
+                    </div>
+                </div>
+            }
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+
+    <div class="car-info-container">
+        <div class="image-container">
+            <div class="car-name">
+                <h2 id="carName">BMW</h2>
+            </div>
+            <img id="carImage" src="~/image/Lamborghini/SUV/urus.png" alt="Lamborghini">
+        </div>
+
+        <div class="specifications-container">
+            <h1>Thông số kỹ thuật</h1>
+            <table>
+                <tr>
+                    <th>Công suất</th>
+                    <td id="carPower">kW</td>
+                </tr>
+                <tr>
+                    <th>Mô men xoắn cực đại</th>
+                    <td id="carTorque"> Nm</td>
+                </tr>
+                <tr>
+                    <th>Tăng tốc từ 0 - 100 km/giờ</th>
+                    <td id="carAcceleration">giây</td>
+                </tr>
+                <tr>
+                    <th>Tốc độ tối đa</th>
+                    <td id="carTopSpeed">km/giờ</td>
+                </tr>
+                <tr>
+                    <th>Giá tiêu chuẩn</th>
+                    <td id="carPrice">VNĐ</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+        <div class="italic">
+        <p>* Giá chưa tính thuế</p>
+    </div>
+    <script src="~/js/Audi/slide.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const priceElements = document.querySelectorAll('.car-price');
+            
+            priceElements.forEach((element) => {
+                let price = element.getAttribute('data-price');
+                if (price !== null) {
+                    const formattedPrice = price.replace(/\B(?=(\d{3})+(?!\d))/g, '.') + ' VNĐ';
+                    
+                    // Hiển thị giá đã được định dạng ngay từ đầu
+                    element.textContent = formattedPrice;
+                    
+                    // Thêm sự kiện để đổi lại giá gốc khi hover (nếu cần)
+                    element.addEventListener('mouseover', () => {
+                        element.textContent = formattedPrice;
+                    });
+                    element.addEventListener('mouseout', () => {
+                        element.textContent = formattedPrice;
+                    });
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>
