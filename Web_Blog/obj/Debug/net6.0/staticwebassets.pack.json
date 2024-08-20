@@ -589,6 +589,70 @@
       "PackagePath": "staticwebassets\\image\\Poscher\\Taycan\\taycan.png"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\Hybrid\\toyota camry hybrid.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\Hybrid\\toyota camry hybrid.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\Hybrid\\toyota highlander hybrid.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\Hybrid\\toyota highlander hybrid.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\Hybrid\\toyota prius.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\Hybrid\\toyota prius.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\Hybrid\\toyota rav4 hybrid.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\Hybrid\\toyota rav4 hybrid.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\Minivan\\toyota sienna.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\Minivan\\toyota sienna.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\Pickup truck\\toyota tacoma.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\Pickup truck\\toyota tacoma.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\Pickup truck\\toyota tundra.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\Pickup truck\\toyota tundra.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\SUV\\toyota 4runner.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\SUV\\toyota 4runner.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\SUV\\toyota highlander.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\SUV\\toyota highlander.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\SUV\\toyota land cruiser.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\SUV\\toyota land cruiser.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\SUV\\toyota rav4.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\SUV\\toyota rav4.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\Sedan\\toyota avalon.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\Sedan\\toyota avalon.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\Sedan\\toyota camry.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\Sedan\\toyota camry.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\Sedan\\toyota corolla.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\Sedan\\toyota corolla.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\Sport\\toyota gr supra.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\Sport\\toyota gr supra.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Toyota\\Sport\\toyota gr86.png",
+      "PackagePath": "staticwebassets\\image\\Toyota\\Sport\\toyota gr86.png"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Volkswagen\\Electricity\\volkswagen id.3.png",
       "PackagePath": "staticwebassets\\image\\Volkswagen\\Electricity\\volkswagen id.3.png"
     },
@@ -691,6 +755,10 @@
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_porscher.jpg",
       "PackagePath": "staticwebassets\\image\\logo_porscher.jpg"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_toyota.jpg",
+      "PackagePath": "staticwebassets\\image\\logo_toyota.jpg"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_volkswagen.jpg",
