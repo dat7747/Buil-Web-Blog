@@ -27,6 +27,8 @@ namespace Web_Blog.Models
         public DbSet<LoaiToyota> LoaiToyota { get; set; }
         public DbSet<Honda> Honda { get; set; }
         public DbSet<LoaiHonda> LoaiHonda { get; set; }
+        public DbSet<Bentley> Bentley { get; set; }
+        public DbSet<LoaiBentley> LoaiBentley { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -75,6 +77,10 @@ namespace Web_Blog.Models
                 .HasOne(h => h.LoaiHonda)
                 .WithMany(l => l.HondaList)
                 .HasForeignKey(h => h.LoaiID);
+            modelBuilder.Entity<Bentley>()
+                .HasOne(b => b.LoaiBentley)
+                .WithMany(l => l.BentleyList)
+                .HasForeignKey(b => b.LoaiID);
         }
     }
 }

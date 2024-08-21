@@ -201,6 +201,74 @@
       "PackagePath": "staticwebassets\\image\\BMW\\BMW Z\\bmw z4.png"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\Couple\\continental_gt_azure.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\Couple\\continental_gt_azure.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\Couple\\continental_gt_mulliner.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\Couple\\continental_gt_mulliner.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\Couple\\continental_gt_s.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\Couple\\continental_gt_s.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\Couple\\continental_gt_speed.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\Couple\\continental_gt_speed.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\Couple\\continental_gt_v8.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\Couple\\continental_gt_v8.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\SUV\\bentayga_a.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\SUV\\bentayga_a.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\SUV\\bentayga_ewb.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\SUV\\bentayga_ewb.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\SUV\\bentayga_hybrid.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\SUV\\bentayga_hybrid.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\SUV\\bentayga_s.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\SUV\\bentayga_s.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\SUV\\bentayga_v8.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\SUV\\bentayga_v8.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\SUV\\bentley_bentayga_azure.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\SUV\\bentley_bentayga_azure.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\Sedan\\flying_spur_azure.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\Sedan\\flying_spur_azure.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\Sedan\\flying_spur_hybrid.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\Sedan\\flying_spur_hybrid.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\Sedan\\flying_spur_mulliner.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\Sedan\\flying_spur_mulliner.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\Sedan\\flying_spur_s.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\Sedan\\flying_spur_s.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\Sedan\\flying_spur_speed.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\Sedan\\flying_spur_speed.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Bentley\\Sedan\\flying_spur_v8.png",
+      "PackagePath": "staticwebassets\\image\\Bentley\\Sedan\\flying_spur_v8.png"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Ferrari\\GT Cars\\ferrari portofino m.png",
       "PackagePath": "staticwebassets\\image\\Ferrari\\GT Cars\\ferrari portofino m.png"
     },
@@ -257,12 +325,12 @@
       "PackagePath": "staticwebassets\\image\\Ferrari\\Sport Cars\\ferrari f8 tributo.png"
     },
     {
-      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\Hatchback\\brio rs.png",
-      "PackagePath": "staticwebassets\\image\\Honda\\Hatchback\\brio rs.png"
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\Hatchback\\brio g.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\Hatchback\\brio g.png"
     },
     {
-      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\Hatchback\\grio g.png",
-      "PackagePath": "staticwebassets\\image\\Honda\\Hatchback\\grio g.png"
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\Hatchback\\brio rs.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\Hatchback\\brio rs.png"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\MPV\\br_v_g.png",
@@ -811,6 +879,10 @@
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_audi.png",
       "PackagePath": "staticwebassets\\image\\logo_audi.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_bentley.jpg",
+      "PackagePath": "staticwebassets\\image\\logo_bentley.jpg"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_bmw.jpg",
