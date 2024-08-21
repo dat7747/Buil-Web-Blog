@@ -257,6 +257,78 @@
       "PackagePath": "staticwebassets\\image\\Ferrari\\Sport Cars\\ferrari f8 tributo.png"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\Hatchback\\brio rs.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\Hatchback\\brio rs.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\Hatchback\\grio g.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\Hatchback\\grio g.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\MPV\\br_v_g.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\MPV\\br_v_g.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\MPV\\br_v_l.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\MPV\\br_v_l.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\Performance\\honda_civic_type_r.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\Performance\\honda_civic_type_r.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\SUV\\cr_v_e.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\SUV\\cr_v_e.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\SUV\\cr_v_g.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\SUV\\cr_v_g.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\SUV\\cr_v_l.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\SUV\\cr_v_l.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\SUV\\hr_v_g.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\SUV\\hr_v_g.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\SUV\\hr_v_l.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\SUV\\hr_v_l.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\SUV\\hr_v_rs.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\SUV\\hr_v_rs.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\Sedan\\accord 1.5l turbo.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\Sedan\\accord 1.5l turbo.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\Sedan\\city g.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\Sedan\\city g.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\Sedan\\city l.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\Sedan\\city l.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\Sedan\\city rs.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\Sedan\\city rs.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\Sedan\\civic e.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\Sedan\\civic e.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\Sedan\\civic g.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\Sedan\\civic g.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Honda\\Sedan\\civic rs.png",
+      "PackagePath": "staticwebassets\\image\\Honda\\Sedan\\civic rs.png"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Lamborghini\\SUV\\urus.png",
       "PackagePath": "staticwebassets\\image\\Lamborghini\\SUV\\urus.png"
     },
@@ -743,6 +815,10 @@
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_bmw.jpg",
       "PackagePath": "staticwebassets\\image\\logo_bmw.jpg"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_honda.png",
+      "PackagePath": "staticwebassets\\image\\logo_honda.png"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\logo_lamborghini.jpg",

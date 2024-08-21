@@ -25,6 +25,9 @@ namespace Web_Blog.Models
         public DbSet<LoaiLamborghini> LoaiLamborghini { get; set; }
         public DbSet<Toyota> Toyota { get; set; }
         public DbSet<LoaiToyota> LoaiToyota { get; set; }
+        public DbSet<Honda> Honda { get; set; }
+        public DbSet<LoaiHonda> LoaiHonda { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Poscher>()
@@ -68,6 +71,10 @@ namespace Web_Blog.Models
                 .HasOne(t => t.LoaiToyota)
                 .WithMany(l => l.ToyotaList)
                 .HasForeignKey(t => t.LoaiID);
+            modelBuilder.Entity<Honda>()
+                .HasOne(h => h.LoaiHonda)
+                .WithMany(l => l.HondaList)
+                .HasForeignKey(h => h.LoaiID);
         }
     }
 }
