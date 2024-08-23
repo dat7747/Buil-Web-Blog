@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using Web_Blog.Models;
 
 namespace Web_Blog.Controllers
@@ -71,12 +72,35 @@ namespace Web_Blog.Controllers
             return Challenge(properties, GoogleDefaults.AuthenticationScheme);
         }
 
-        [HttpGet]
-        public IActionResult GoogleResponse()
+       [HttpGet]
+       public IActionResult GoogleResponse()
         {
             _logger.LogInformation("Processing Google login response.");
+
+            var claimsPrincipal = HttpContext.User;
+            var userName = claimsPrincipal?.FindFirst(ClaimTypes.Name)?.Value;
+
+            if (!string.IsNullOrEmpty(userName))
+            {
+                HttpContext.Session.SetString("UserName", userName);
+                HttpContext.Session.SetString("IsAuthenticated", "true");
+            }
+
             return RedirectToAction("Index", "Home");
         }
-    }
+        [HttpPost]
+        public IActionResult Logout()
+        {
+            _logger.LogInformation("Logout method has been triggered.");
 
+            // Clear the session
+            HttpContext.Session.Clear();
+            
+            _logger.LogInformation("Session has been cleared.");
+
+            // Return a JSON response indicating success
+            return Json(new { success = true });
+        }
+
+    }
 }

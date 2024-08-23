@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Web_Blog.Models;
-using System.Security.Cryptography.X509Certificates;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,13 +26,22 @@ builder.Services.AddAuthentication(options =>
 {
     options.ClientId = "1025894182502-1jcc5t7bbvtq12do49cdfjpl4tj6e5se.apps.googleusercontent.com";
     options.ClientSecret = "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";
-    options.CallbackPath = "/signin-google";
+    options.CorrelationCookie.SameSite = SameSiteMode.None;
+    options.CorrelationCookie.SecurePolicy = CookieSecurePolicy.Always;
 });
 
 // Thêm dịch vụ logging
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 builder.Logging.AddDebug();
+
+// Thêm session vào services
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian hết hạn của session
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true; // Cần thiết cho session
+});
 
 builder.Services.AddControllersWithViews();
 
@@ -45,6 +53,7 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
+
 app.Use(async (context, next) =>
 {
     Console.WriteLine($"Request Path: {context.Request.Path}");
@@ -56,12 +65,13 @@ app.Use(async (context, next) =>
     Console.WriteLine($"Response Status Code: {context.Response.StatusCode}");
 });
 
-
-
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+// Sử dụng session
+app.UseSession();
 
 app.UseAuthentication();
 app.UseAuthorization();
