@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\css\\Porscher\\logo_porscher.css"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\home\\chatbot.css",
+      "PackagePath": "staticwebassets\\css\\home\\chatbot.css"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\home\\content-oto.css",
       "PackagePath": "staticwebassets\\css\\home\\content-oto.css"
     },
@@ -861,6 +865,10 @@
       "PackagePath": "staticwebassets\\image\\Volkswagen\\Sedan\\volkswagen passat.png"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\chatgpt.jpg",
+      "PackagePath": "staticwebassets\\image\\chatgpt.jpg"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\image1.jpg",
       "PackagePath": "staticwebassets\\image\\image1.jpg"
     },
@@ -913,6 +921,14 @@
       "PackagePath": "staticwebassets\\image\\logo_volkswagen.jpg"
     },
     {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\mess-avatar.png",
+      "PackagePath": "staticwebassets\\image\\mess-avatar.png"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\user.jpg",
+      "PackagePath": "staticwebassets\\image\\user.jpg"
+    },
+    {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\Audi\\slide.js",
       "PackagePath": "staticwebassets\\js\\Audi\\slide.js"
     },
@@ -923,6 +939,10 @@
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\Porscher\\slide.js",
       "PackagePath": "staticwebassets\\js\\Porscher\\slide.js"
+    },
+    {
+      "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\home\\chatbot.js",
+      "PackagePath": "staticwebassets\\js\\home\\chatbot.js"
     },
     {
       "Id": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\home\\featured-slider.js",

@@ -1,0 +1,101 @@
+/* Thiết lập cho Avata Icon */
+#chatbox-icon {
+    width: 70px;
+    height: 70px;
+    z-index: 50;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.avatar-icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#chatbox-icon:hover {
+    transform: scale(1.1); /* Phóng to khi hover */
+}
+
+/* Thiết lập cho chatbox */
+#chatbox {
+    z-index: 50;
+    position: fixed;
+    bottom: 5rem;
+    right: 1rem;
+    width: 320px; /* Chiều rộng của chatbox */
+    height: 480px; /* Chiều cao của chatbox */
+    border-radius: 20px; /* Bo góc chatbox */
+    overflow-y: auto; /* Cuộn khi nội dung vượt quá chiều cao */
+    display: none; /* Ẩn chatbox khi vừa load trang */
+    flex-direction: column;
+    background-color: #e0f7fa; /* Màu nền nhẹ nhàng cho khung chat */
+    border: 3px solid #8a2be2; /* Đường viền màu tím */
+}
+
+#chatbox .p-3 {
+    padding: 10px 15px;
+}
+
+#chatbox h3 {
+    font-size: 1.20rem; /* Tăng kích thước tiêu đề */
+}
+
+#close-chatbox {
+    cursor: pointer;
+}
+
+#chatInput {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+#sendMessage {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #00796b; /* Màu nút gửi */
+}
+
+/* Giao diện tin nhắn giống Messenger */
+.message-container {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: row; /* Đặt hướng của các tin nhắn theo hàng */
+}
+
+.message.user {
+    justify-content: flex-end; /* Tin nhắn của người dùng nằm bên phải */
+}
+
+.message.bot {
+    justify-content: flex-start; /* Tin nhắn từ bot nằm bên trái */
+}
+
+.message-bubble {
+    max-width: 70%; /* Giới hạn chiều rộng của tin nhắn */
+    background-color: #f1f1f1;
+    padding: 10px 15px;
+    border-radius: 20px;
+    word-wrap: break-word; /* Đảm bảo từ không bị ngắt giữa dòng */
+}
+
+/* Tin nhắn của người dùng */
+.message.user .message-bubble {
+    background-color: #d1e7ff;
+    margin-left: 10px;
+    margin-right: 0; /* Đặt tin nhắn của người dùng sang bên phải */
+}
+
+/* Tin nhắn từ bot */
+.message.bot .message-bubble {
+    background-color: #ececec;
+    margin-left: 0;
+    margin-right: 10px; /* Đặt tin nhắn của bot sang bên trái */
+}

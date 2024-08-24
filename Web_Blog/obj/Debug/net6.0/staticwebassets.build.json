@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ftMI6HHC81BMx3JBXcJ5+WN+fDQyQIFvl/xJu+lWIeY=",
+  "Hash": "43tS+ECa0YBw5mLc2Q1R0s82VAt+eQGPCzeUx+n+RHA=",
   "Source": "Web_Blog",
   "BasePath": "_content/Web_Blog",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\CarBrands\\Index.css"
+    },
+    {
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\home\\chatbot.css",
+      "SourceId": "Web_Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
+      "BasePath": "_content/Web_Blog",
+      "RelativePath": "css/home/chatbot.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home\\chatbot.css"
     },
     {
       "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\css\\home\\content-oto.css",
@@ -1288,6 +1307,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\BMW\\BMW Z\\bmw z4.png"
+    },
+    {
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\chatgpt.jpg",
+      "SourceId": "Web_Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
+      "BasePath": "_content/Web_Blog",
+      "RelativePath": "image/chatgpt.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\chatgpt.jpg"
     },
     {
       "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Ferrari\\GT Cars\\ferrari portofino m.png",
@@ -2810,6 +2848,25 @@
       "OriginalItemSpec": "wwwroot\\image\\Mercedes\\SUV\\mercedes maybach gls.png"
     },
     {
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\mess-avatar.png",
+      "SourceId": "Web_Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
+      "BasePath": "_content/Web_Blog",
+      "RelativePath": "image/mess-avatar.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\mess-avatar.png"
+    },
+    {
       "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Poscher\\718\\718 boxster s.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
@@ -4026,6 +4083,25 @@
       "OriginalItemSpec": "wwwroot\\image\\Toyota\\SUV\\toyota rav4.png"
     },
     {
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\user.jpg",
+      "SourceId": "Web_Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
+      "BasePath": "_content/Web_Blog",
+      "RelativePath": "image/user.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\user.jpg"
+    },
+    {
       "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\image\\Volkswagen\\Electricity\\volkswagen id.3.png",
       "SourceId": "Web_Blog",
       "SourceType": "Discovered",
@@ -4366,6 +4442,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Audi\\slide.js"
+    },
+    {
+      "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\home\\chatbot.js",
+      "SourceId": "Web_Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\",
+      "BasePath": "_content/Web_Blog",
+      "RelativePath": "js/home/chatbot.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\home\\chatbot.js"
     },
     {
       "Identity": "C:\\FileNayChuBaiTap\\Buil-Web-Blog\\Web_Blog\\wwwroot\\js\\home\\featured-slider.js",
