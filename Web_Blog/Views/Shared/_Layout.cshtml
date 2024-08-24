@@ -32,11 +32,9 @@
 
             <!-- Login/Register and Social Icons -->
             <div class="login-register-social flex items-center space-x-4">
-                 @if (Context.User.Identity.IsAuthenticated)
+                @if (Context.Session.GetString("IsAuthenticated") == "true")
                 {
-                    <span class="text-white ml-2">Xin chào, @Context.User.Identity.Name!</span>
-                    
-                    <!-- Nút Đăng Xuất -->
+                    <span class="text-white ml-2">Xin chào, @Context.Session.GetString("UserName")!</span>
                     <a href="javascript:void(0);" onclick="submitLogout();" class="text-gray-400 hover:text-red-500 mx-2">
                         <i class="fas fa-sign-out-alt fa-sm"></i>
                     </a>
@@ -46,6 +44,7 @@
                     <a href="/Account/Login" class="text-white hover:text-gray-300">Đăng Nhập</a>
                     <a href="/Account/Register" class="text-white hover:text-gray-300">Đăng Ký</a>
                 }
+
                 <!-- Biểu tượng mạng xã hội -->
                 <a href="https://facebook.com" class="text-gray-200 hover:text-blue-500 mx-2"><i class="fab fa-facebook fa-2x"></i></a>
                 <a href="https://twitter.com" class="text-gray-200 hover:text-blue-400 mx-2"><i class="fab fa-twitter fa-2x"></i></a>
@@ -236,18 +235,22 @@
     </script>
     <script type="text/javascript">
         function submitLogout() {
+            // Xóa session cục bộ nếu có
+            document.cookie = "IsAuthenticated=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+            document.cookie = "UserName=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+            
             fetch('/Account/Logout', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value // Token bảo mật
+                    'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
                 }
             })
             .then(response => response.json())
             .then(data => {
                 if (data.success) {
-                    // Redirect to a specific page after logout
-                    window.location.href = '/Poscher/Index'; // Thay đổi theo nhu cầu của bạn
+                    // Tải lại trang để cập nhật giao diện
+                    window.location.reload(true); // true để buộc tải lại từ server, tránh cache
                 } else {
                     console.error('Logout failed.');
                 }
@@ -255,6 +258,5 @@
             .catch(error => console.error('Error:', error));
         }
     </script>
-
 </body>
 </html>
